@@ -45,3 +45,7 @@ jobs:
         with:
           name: playwright-report
           path: playwright-report/
+
+      - name: Check DNS
+        run: |
+          nslookup awamwp.ptgwp.gov.my    
