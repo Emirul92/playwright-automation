@@ -31,11 +31,11 @@ jobs:
         run: npm ci
 
 
-      - name: Install Playwright
+      - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
 
-      - name: Run Playwright Test
+      - name: Run Playwright tests
         run: npx playwright test
 
 
