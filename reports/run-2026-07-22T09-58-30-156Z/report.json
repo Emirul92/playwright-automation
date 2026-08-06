@@ -1,0 +1,81 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Emirul\\Desktop\\playwright-automation\\playwright.config.ts",
+    "rootDir": "C:/Users/Emirul/Desktop/playwright-automation/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Emirul/Desktop/playwright-automation/reports/run-2026-07-22T09-58-30-156Z/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/Emirul/Desktop/playwright-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "always"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/run-2026-07-22T09-58-30-156Z/report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [],
+  "errors": [
+    {
+      "message": "Error: Cannot find module '@faker-js/faker/locale/en'\nRequire stack:\n- C:\\Users\\Emirul\\Desktop\\playwright-automation\\tests\\awam-PengurusanWakilDaftarRunnerJUB.spec.js\n- C:\\Users\\Emirul\\Desktop\\playwright-automation\\node_modules\\playwright\\lib\\transform\\transform.js\n- C:\\Users\\Emirul\\Desktop\\playwright-automation\\node_modules\\playwright\\lib\\common\\configLoader.js\n- C:\\Users\\Emirul\\Desktop\\playwright-automation\\node_modules\\playwright\\lib\\program.js\n- C:\\Users\\Emirul\\Desktop\\playwright-automation\\node_modules\\@playwright\\test\\cli.js",
+      "stack": "Error: Cannot find module '@faker-js/faker/locale/en'\nRequire stack:\n- C:\\Users\\Emirul\\Desktop\\playwright-automation\\tests\\awam-PengurusanWakilDaftarRunnerJUB.spec.js\n- C:\\Users\\Emirul\\Desktop\\playwright-automation\\node_modules\\playwright\\lib\\transform\\transform.js\n- C:\\Users\\Emirul\\Desktop\\playwright-automation\\node_modules\\playwright\\lib\\common\\configLoader.js\n- C:\\Users\\Emirul\\Desktop\\playwright-automation\\node_modules\\playwright\\lib\\program.js\n- C:\\Users\\Emirul\\Desktop\\playwright-automation\\node_modules\\@playwright\\test\\cli.js\n    at Object.<anonymous> (C:\\Users\\Emirul\\Desktop\\playwright-automation\\tests\\awam-PengurusanWakilDaftarRunnerJUB.spec.js:2:1)",
+      "location": {
+        "file": "C:\\Users\\Emirul\\Desktop\\playwright-automation\\tests\\awam-PengurusanWakilDaftarRunnerJUB.spec.js",
+        "column": 1,
+        "line": 2
+      },
+      "snippet": "\u001b[90m   at \u001b[39mawam-PengurusanWakilDaftarRunnerJUB.spec.js:2\n\n\u001b[0m \u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m { test\u001b[33m,\u001b[39m expect } \u001b[36mfrom\u001b[39m \u001b[32m'@playwright/test'\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 |\u001b[39m \u001b[36mimport\u001b[39m { faker } \u001b[36mfrom\u001b[39m \u001b[32m'@faker-js/faker/locale/en'\u001b[39m\u001b[33m;\u001b[39m \u001b[90m// install faker-js : 'npm install @faker-js/faker'\u001b[39m\n \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 3 |\u001b[39m\n \u001b[90m 4 |\u001b[39m test\u001b[33m.\u001b[39muse({\n \u001b[90m 5 |\u001b[39m   ignoreHTTPSErrors\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m,\u001b[39m\u001b[0m"
+    }
+  ],
+  "stats": {
+    "startTime": "2026-07-22T09:58:30.159Z",
+    "duration": 123.83600000000001,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

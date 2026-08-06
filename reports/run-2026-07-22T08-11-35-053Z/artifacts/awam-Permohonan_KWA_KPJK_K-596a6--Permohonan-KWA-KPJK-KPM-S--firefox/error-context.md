@@ -1,0 +1,341 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - link "awam-header" [ref=e8] [cursor=pointer]:
+      - /url: /etanah-awam/protected/awam/PapanBuletinForm.xhtml
+      - img "awam-header" [ref=e9]
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link:
+          - /url: /etanah-awam/protected/awam/AwamDashboardForm.xhtml
+          - img [ref=e13] [cursor=pointer]
+        - paragraph [ref=e14]: "DASHBOARD : MOHD IZWAN BIN ZAKARIA"
+        - paragraph [ref=e15]: "Jenis Akaun : Individu"
+      - generic [ref=e17]:
+        - link "Portal Rasmi PPTGWP Kuala Lumpur" [ref=e18] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/portal
+        - img "notifikasi" [ref=e20]
+        - link "Notifikasi (0)" [ref=e21] [cursor=pointer]:
+          - /url: /etanah-awam/protected/awam/PapanBuletinForm.xhtml
+        - img "log-keluar" [ref=e23]
+        - link "Log Keluar" [ref=e24] [cursor=pointer]:
+          - /url: /etanah-awam/j_spring_cas_security_logout
+  - generic [ref=e26]:
+    - generic [ref=e28]:
+      - paragraph [ref=e29]:
+        - link [ref=e30] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/EMohonMainMenuForm.xhtml
+      - paragraph [ref=e31]:
+        - link [ref=e32] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/StatusPermohonanForm.xhtml
+      - paragraph [ref=e33]:
+        - link [ref=e34] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/DaftarBilCukaiTanahForm.xhtml
+      - paragraph [ref=e35]:
+        - link [ref=e36] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/singlewindow/ECarianForm.xhtml
+      - paragraph [ref=e37]:
+        - link [ref=e38] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/HasilBayaranOnlineForm.xhtml
+      - paragraph [ref=e39]:
+        - link [ref=e40] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/PendaftaranBilKelompok.xhtml
+      - paragraph [ref=e41]:
+        - link [ref=e42] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/AwamPenggunaKemaskiniForm.xhtml
+      - paragraph [ref=e43]:
+        - link [ref=e44] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/AwamSemakanPermohonanTukargantiHakmilikForm.xhtml
+      - paragraph [ref=e45]:
+        - link [ref=e46] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/gis/CarianGisForm.xhtml
+      - paragraph [ref=e47]:
+        - link [ref=e48] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/PaparanRekodBayaranForm.xhtml
+    - generic [ref=e50]:
+      - list [ref=e51]:
+        - listitem [ref=e52]:
+          - link "Permohonan Atas Talian" [ref=e53] [cursor=pointer]:
+            - /url: /etanah-awam/protected/awam/EMohonMainMenuForm.xhtml
+        - listitem [ref=e54]:
+          - link "Consent" [ref=e55] [cursor=pointer]:
+            - /url: /etanah-awam/protected/awam/EMohonMainMenuForm.xhtml?modulKod=CON
+        - listitem [ref=e56]:
+          - generic [ref=e57]: Kebenaran Gadaian Tanah ( KGD(T))
+      - generic [ref=e58]:
+        - text: Kebenaran Gadaian Tanah
+        - link [ref=e60] [cursor=pointer]:
+          - /url: "#"
+      - paragraph [ref=e62]:
+        - strong [ref=e63]: Arahan.
+        - text: 1. Lengkapkan dan hantar borang Permohonan Atas Talian
+        - text: 2. Cetak Slip Permohonan Atas Talian (beserta borang permohonan dan senarai semak)
+        - text: 3. Hadir ke Kaunter Bayaran (bagi membuat bayaran seperti tertera di Resit Bayaran)
+        - text: 4. Serah dokumen serta bayar fi permohonan.
+        - text: 5. Sila pastikan klik butang 'Simpan' untuk menyimpan maklumat permohonan.
+      - generic [ref=e65]:
+        - tablist [ref=e66]:
+          - tab [ref=e67]:
+            - link [ref=e68] [cursor=pointer]:
+              - /url: "#centerForm:mainTab:tab0"
+              - grid [ref=e69]:
+                - rowgroup [ref=e70]:
+                  - row "Maklumat Hakmilik" [ref=e71]:
+                    - gridcell [ref=e72]
+                    - gridcell [ref=e73]
+                    - gridcell "Maklumat Hakmilik" [ref=e74]:
+                      - generic [ref=e76]: Maklumat Hakmilik
+          - tab [ref=e77]:
+            - link [ref=e78] [cursor=pointer]:
+              - /url: "#centerForm:mainTab:tab1"
+              - grid [ref=e79]:
+                - rowgroup [ref=e80]:
+                  - row "Maklumat Pemohon" [ref=e81]:
+                    - gridcell [ref=e82]
+                    - gridcell [ref=e83]
+                    - gridcell "Maklumat Pemohon" [ref=e84]:
+                      - generic [ref=e86]: Maklumat Pemohon
+          - tab [ref=e87]:
+            - link [ref=e88] [cursor=pointer]:
+              - /url: "#centerForm:mainTab:tab2"
+              - grid [ref=e89]:
+                - rowgroup [ref=e90]:
+                  - row "Maklumat Penerima Gadaian" [ref=e91]:
+                    - gridcell [ref=e92]
+                    - gridcell [ref=e93]
+                    - gridcell "Maklumat Penerima Gadaian" [ref=e94]:
+                      - generic [ref=e96]: Maklumat Penerima Gadaian
+          - tab [ref=e97]:
+            - link [ref=e98] [cursor=pointer]:
+              - /url: "#centerForm:mainTab:tab3"
+              - grid [ref=e99]:
+                - rowgroup [ref=e100]:
+                  - row "Borang Permohonan" [ref=e101]:
+                    - gridcell [ref=e102]
+                    - gridcell [ref=e103]
+                    - gridcell "Borang Permohonan" [ref=e104]:
+                      - generic [ref=e106]: Borang Permohonan
+          - tab [ref=e107]:
+            - link [ref=e108] [cursor=pointer]:
+              - /url: "#centerForm:mainTab:tab4"
+              - grid [ref=e109]:
+                - rowgroup [ref=e110]:
+                  - row "Dokumen Disertakan" [ref=e111]:
+                    - gridcell [ref=e112]
+                    - gridcell [ref=e113]
+                    - gridcell "Dokumen Disertakan" [ref=e114]:
+                      - generic [ref=e116]: Dokumen Disertakan
+          - tab [ref=e117]:
+            - link [ref=e118] [cursor=pointer]:
+              - /url: "#centerForm:mainTab:tab5"
+              - grid [ref=e119]:
+                - rowgroup [ref=e120]:
+                  - row "Pengesahan Serahan Secara Atas Talian" [ref=e121]:
+                    - gridcell [ref=e122]
+                    - gridcell [ref=e123]
+                    - gridcell "Pengesahan Serahan Secara Atas Talian" [ref=e124]:
+                      - generic [ref=e126]: Pengesahan Serahan Secara Atas Talian
+          - tab [expanded] [selected] [ref=e127]:
+            - link [ref=e128]:
+              - /url: "#centerForm:mainTab:tab6"
+              - grid [ref=e129]:
+                - rowgroup [ref=e130]:
+                  - row "Bayaran" [ref=e131]:
+                    - gridcell [ref=e132]
+                    - gridcell [ref=e133]
+                    - gridcell "Bayaran" [ref=e134]:
+                      - generic [ref=e136]: Bayaran
+        - tabpanel [ref=e138]:
+          - generic [ref=e139]:
+            - group "Senarai Urusan" [ref=e140]:
+              - generic [ref=e142] [cursor=pointer]: Senarai Urusan
+              - generic [ref=e149]:
+                - generic [ref=e150]: Senarai Urusan
+                - grid [ref=e152]:
+                  - rowgroup [ref=e153]:
+                    - row "Bil. Urusan/Perihal ID Hakmilik/Nombor Lot Bilangan Fi Jumlah Perlu Bayar (RM)" [ref=e154]:
+                      - columnheader "Bil." [ref=e155]
+                      - columnheader "Urusan/Perihal" [ref=e156]
+                      - columnheader "ID Hakmilik/Nombor Lot" [ref=e157]
+                      - columnheader "Bilangan" [ref=e158]
+                      - columnheader "Fi" [ref=e159]
+                      - columnheader "Jumlah Perlu Bayar (RM)" [ref=e160]
+                  - rowgroup [ref=e161]:
+                    - row "Jumlah Bayaran (RM) 50.00" [ref=e162]:
+                      - gridcell "Jumlah Bayaran (RM)" [ref=e163]
+                      - gridcell "50.00" [ref=e164]
+                  - rowgroup [ref=e165]:
+                    - row "1 Kebenaran Gadaian Tanah 140005GM00001702 50.00 50.00" [ref=e166]:
+                      - gridcell "1" [ref=e167]
+                      - gridcell "Kebenaran Gadaian Tanah" [ref=e168]
+                      - gridcell "140005GM00001702" [ref=e169]:
+                        - generic [ref=e170]: 140005GM00001702
+                      - gridcell [ref=e171]
+                      - gridcell "50.00" [ref=e172]
+                      - gridcell "50.00" [ref=e173]
+            - dialog "Maklumat Bayaran" [ref=e174]:
+              - generic [ref=e175]:
+                - generic [ref=e176]: Maklumat Bayaran
+                - button [ref=e177] [cursor=pointer]
+              - generic [ref=e179]:
+                - group [ref=e181]:
+                  - generic [ref=e184]: Butiran Pembayaran
+                - group [ref=e186]:
+                  - generic:
+                    - generic [ref=e187]:
+                      - generic [ref=e188]: Status Bayaran
+                      - generic [ref=e190]: ":"
+                    - generic [ref=e192]: Kebenaran Gadaian Tanah
+                - group [ref=e194]:
+                  - generic:
+                    - generic [ref=e195]:
+                      - generic [ref=e196]: Jumlah (RM)
+                      - generic [ref=e198]: ":"
+                    - generic [ref=e200]: "50.00"
+                - group [ref=e202]:
+                  - generic [ref=e205]: Sila Pilih Bank
+                - table [ref=e208]:
+                  - rowgroup [ref=e209]:
+                    - row "Perniagaan-Ke-Pengguna (B2C) *Maksimum Bayaran:RM30,000.00 Perniagaan-Ke-Perniagaan (B2B) *Maksimum Bayaran:RM1,000,000.00" [ref=e210]:
+                      - cell "Perniagaan-Ke-Pengguna (B2C) *Maksimum Bayaran:RM30,000.00" [ref=e211]:
+                        - generic [ref=e212]:
+                          - generic:
+                            - radio "Perniagaan-Ke-Pengguna (B2C) *Maksimum Bayaran:RM30,000.00" [checked]
+                      - cell "Perniagaan-Ke-Pengguna (B2C) *Maksimum Bayaran:RM30,000.00" [ref=e215]:
+                        - generic [ref=e216]:
+                          - text: Perniagaan-Ke-Pengguna (B2C)
+                          - text: "*Maksimum Bayaran:RM30,000.00"
+                      - cell "Perniagaan-Ke-Perniagaan (B2B) *Maksimum Bayaran:RM1,000,000.00" [ref=e217]:
+                        - generic [ref=e218]:
+                          - generic:
+                            - radio "Perniagaan-Ke-Perniagaan (B2B) *Maksimum Bayaran:RM1,000,000.00"
+                      - cell "Perniagaan-Ke-Perniagaan (B2B) *Maksimum Bayaran:RM1,000,000.00" [ref=e221]:
+                        - generic [ref=e222]:
+                          - text: Perniagaan-Ke-Perniagaan (B2B)
+                          - text: "*Maksimum Bayaran:RM1,000,000.00"
+                - generic [ref=e223] [cursor=pointer]:
+                  - combobox [ref=e224]
+                  - combobox [ref=e225]:
+                    - option "Sila Pilih Bank" [selected]
+                    - option "Affin B2C - Test ID"
+                    - option "Affin Bank"
+                    - option "AGRONet"
+                    - option "Alliance Bank"
+                    - option "AmBank"
+                    - option "Bank Islam"
+                    - option "Bank Muamalat"
+                    - option "Bank of China (M) Berhad"
+                    - option "Bank Rakyat"
+                    - option "BSN"
+                    - option "CIMB Clicks"
+                    - option "Citibank (Offline)"
+                    - option "Hong Leong Bank"
+                    - option "HSBC Bank"
+                    - option "KAFB01"
+                    - option "KFH (Offline)"
+                    - option "LOAD001 (Offline)"
+                    - option "Maybank2E (Offline)"
+                    - option "Maybank2U"
+                    - option "MBBM2U2"
+                    - option "MBSB001"
+                    - option "OCBC Bank"
+                    - option "Public Bank"
+                    - option "RHB Bank"
+                    - option "SBI Bank A"
+                    - option "SBI Bank B"
+                    - option "SBI Bank C"
+                    - option "Standard Chartered"
+                    - option "UOB Bank"
+                  - generic [ref=e226]: Sila Pilih Bank
+                - group [ref=e230]:
+                  - generic:
+                    - generic [ref=e231]:
+                      - generic [ref=e232]: Emel
+                      - generic [ref=e234]: ":"
+                    - textbox "Emel :" [ref=e238]: mohd.izwan.zakaria@gmail.com
+                - group [ref=e241]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - paragraph [ref=e242]:
+                            - text: Dengan klik butang
+                            - strong [ref=e243]: "\"Seterusnya\""
+                            - text: di bawah, anda telah bersetuju dengan
+                          - paragraph [ref=e244]:
+                            - link "Terma & Syarat" [ref=e246] [cursor=pointer]:
+                              - /url: https://www.mepsfpx.com.my/FPXMain/termsAndConditions.jsp
+                              - strong [ref=e247]: Terma & Syarat
+                            - text: FPX
+                - generic [ref=e248]:
+                  - paragraph [ref=e249]:
+                    - strong [ref=e250]: PERHATIAN!
+                  - paragraph [ref=e251]:
+                    - strong [ref=e252]: 1. Pastikan anda tidak menutup laman web semasa transaksi pembayaran sedang dilakukan
+                  - paragraph [ref=e253]:
+                    - strong [ref=e254]: 2. selepas membuat pembayaran melalui laman bank yang dipilih, pastikan anda klik pada butang continue untuk kembali kepada laman web portal etanah
+                - generic [ref=e256]:
+                  - button "Seterusnya" [ref=e257] [cursor=pointer]:
+                    - generic [ref=e258]: Seterusnya
+                  - button "Keluar" [ref=e259] [cursor=pointer]:
+                    - generic [ref=e260]: Keluar
+          - group "Perakuan" [ref=e261]:
+            - generic [ref=e263] [cursor=pointer]: Perakuan
+            - grid [ref=e270]:
+              - rowgroup [ref=e271]:
+                - row "Dengan ini saya mengakui bahawa maklumat yang dinyatakan adalah benar. Pihak Pejabat Tanah Dan Galian Wilayah Persekutuan Kuala Lumpur berhak untuk membatalkan permohonan ini sekiranya terdapat maklumat palsu dan tidak benar. Saya bersetuju dengan fi yang dinyatakan dan akan membuat bayaran penuh secara atas talian." [ref=e272]:
+                  - gridcell [ref=e273]:
+                    - checkbox [checked] [ref=e275]
+                  - gridcell [ref=e278]
+                  - gridcell "Dengan ini saya mengakui bahawa maklumat yang dinyatakan adalah benar. Pihak Pejabat Tanah Dan Galian Wilayah Persekutuan Kuala Lumpur berhak untuk membatalkan permohonan ini sekiranya terdapat maklumat palsu dan tidak benar. Saya bersetuju dengan fi yang dinyatakan dan akan membuat bayaran penuh secara atas talian." [ref=e279]:
+                    - generic "Perakuan" [ref=e282]:
+                      - text: Dengan ini saya mengakui bahawa maklumat yang dinyatakan adalah benar.
+                      - text: Pihak Pejabat Tanah Dan Galian Wilayah Persekutuan Kuala Lumpur berhak untuk membatalkan permohonan ini sekiranya terdapat maklumat palsu dan tidak benar.
+                      - text: Saya bersetuju dengan fi yang dinyatakan dan akan membuat bayaran penuh secara atas talian.
+                - row:
+                  - gridcell
+          - generic [ref=e284]:
+            - button "Sebelum" [ref=e285] [cursor=pointer]:
+              - generic [ref=e286]: Sebelum
+            - button "Simpan" [ref=e287] [cursor=pointer]:
+              - generic [ref=e288]: Simpan
+            - button "Bayar" [ref=e289] [cursor=pointer]:
+              - generic [ref=e290]: Bayar
+            - button "Keluar" [ref=e291] [cursor=pointer]:
+              - generic [ref=e292]: Keluar
+  - generic [ref=e293]:
+    - generic [ref=e294]:
+      - generic [ref=e295]:
+        - generic [ref=e296]: Helpdesk Perkhidmatan e-Tanah WP
+        - img [ref=e297]
+        - text: +603-2610 3337 / 2693 6429
+        - img [ref=e298]
+        - text: etanahwp@ptgwp.gov.my
+      - generic [ref=e299]:
+        - link "Dasar Privasi" [ref=e301] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/portal/dasar-privasi
+        - text: "|"
+        - link "Maklum Balas" [ref=e303] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/portal/web/guest/maklum-balas
+      - img [ref=e305]
+    - generic [ref=e306]:
+      - generic [ref=e309]:
+        - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Putrajaya
+        - text: Aras G, Block 2, Menara Seri Wilayah
+        - text: Presint 2, Pusat Pentadbiran Kerajaan Persekutuan
+        - text: 62100 Putrajaya
+      - generic [ref=e311]:
+        - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Kuala Lumpur
+        - text: Aras G-6, Rumah Persekutuan Jalan Sultan Hishamuddin
+        - text: 50678 Kuala Lumpur
+      - generic [ref=e313]:
+        - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Labuan
+        - text: E003, Tingkat 1, Aras Podium
+        - text: Kompleks Ujana Kewangan, Peti Surat 80693
+        - text: 80693 Labuan
+      - generic [ref=e315]:
+        - text: ® 2021 Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan (PPTGWP)
+        - text: Paparan terbaik menggunakan pelayar internet Safari, Google Chrome atau Mozilla Firefox yang terkini
+```

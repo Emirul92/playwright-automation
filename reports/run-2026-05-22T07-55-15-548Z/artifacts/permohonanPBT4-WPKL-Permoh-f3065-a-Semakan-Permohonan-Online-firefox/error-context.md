@@ -1,0 +1,286 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - link "awam-header" [ref=e8] [cursor=pointer]:
+      - /url: /etanah-awam/protected/awam/PapanBuletinForm.xhtml
+      - img "awam-header" [ref=e9]
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link:
+          - /url: /etanah-awam/protected/awam/AwamDashboardForm.xhtml
+          - img [ref=e13] [cursor=pointer]
+        - paragraph [ref=e14]: "DASHBOARD : TEOH JIAN HWANG"
+        - paragraph [ref=e15]: "Jenis Akaun : Individu"
+      - generic [ref=e17]:
+        - link "Portal Rasmi PPTGWP Kuala Lumpur" [ref=e18] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/portal
+        - img "notifikasi" [ref=e20]
+        - link "Notifikasi (2)" [ref=e21] [cursor=pointer]:
+          - /url: /etanah-awam/protected/awam/PapanBuletinForm.xhtml
+        - img "log-keluar" [ref=e23]
+        - link "Log Keluar" [ref=e24] [cursor=pointer]:
+          - /url: /etanah-awam/j_spring_cas_security_logout
+  - generic [ref=e26]:
+    - generic [ref=e28]:
+      - paragraph [ref=e29]:
+        - link [ref=e30] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/EMohonMainMenuForm.xhtml
+      - paragraph [ref=e31]:
+        - link [ref=e32] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/StatusPermohonanForm.xhtml
+      - paragraph [ref=e33]:
+        - link [ref=e34] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/DaftarBilCukaiTanahForm.xhtml
+      - paragraph [ref=e35]:
+        - link [ref=e36] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/singlewindow/ECarianForm.xhtml
+      - paragraph [ref=e37]:
+        - link [ref=e38] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/HasilBayaranOnlineForm.xhtml
+      - paragraph [ref=e39]:
+        - link [ref=e40] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/PendaftaranBilKelompok.xhtml
+      - paragraph [ref=e41]:
+        - link [ref=e42] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/AwamPenggunaKemaskiniForm.xhtml
+      - paragraph [ref=e43]:
+        - link [ref=e44] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/AwamSemakanPermohonanTukargantiHakmilikForm.xhtml
+      - paragraph [ref=e45]:
+        - link [ref=e46] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/gis/CarianGisForm.xhtml
+      - paragraph [ref=e47]:
+        - link [ref=e48] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/PaparanRekodBayaranForm.xhtml
+    - generic [ref=e50]:
+      - list [ref=e51]:
+        - listitem [ref=e52]:
+          - link "Permohonan Atas Talian" [ref=e53] [cursor=pointer]:
+            - /url: /etanah-awam/protected/awam/EMohonMainMenuForm.xhtml
+        - listitem [ref=e54]:
+          - link "Pengambilan" [ref=e55] [cursor=pointer]:
+            - /url: /etanah-awam/protected/awam/EMohonMainMenuForm.xhtml?modulKod=AMB
+        - listitem [ref=e56]:
+          - generic [ref=e57]: Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960 ( PBT4)
+      - generic [ref=e58]:
+        - text: Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960
+        - link [ref=e60] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e62]:
+        - tablist [ref=e63]:
+          - tab [ref=e64]:
+            - link [ref=e65] [cursor=pointer]:
+              - /url: "#centerForm:mainTab:tab0"
+              - grid [ref=e66]:
+                - rowgroup [ref=e67]:
+                  - row "Maklumat Hakmilik" [ref=e68]:
+                    - gridcell [ref=e69]
+                    - gridcell [ref=e70]
+                    - gridcell "Maklumat Hakmilik" [ref=e71]
+          - tab [ref=e72]:
+            - link [ref=e73] [cursor=pointer]:
+              - /url: "#centerForm:mainTab:tab1"
+              - grid [ref=e74]:
+                - rowgroup [ref=e75]:
+                  - row "Maklumat Pemohon" [ref=e76]:
+                    - gridcell [ref=e77]
+                    - gridcell [ref=e78]
+                    - gridcell "Maklumat Pemohon" [ref=e79]
+          - tab [ref=e80]:
+            - link [ref=e81] [cursor=pointer]:
+              - /url: "#centerForm:mainTab:tab2"
+              - grid [ref=e82]:
+                - rowgroup [ref=e83]:
+                  - row "Maklumat Urusan" [ref=e84]:
+                    - gridcell [ref=e85]
+                    - gridcell [ref=e86]
+                    - gridcell "Maklumat Urusan" [ref=e87]
+          - tab [ref=e88]:
+            - link [ref=e89] [cursor=pointer]:
+              - /url: "#centerForm:mainTab:tab3"
+              - grid [ref=e90]:
+                - rowgroup [ref=e91]:
+                  - row "Borang Permohonan" [ref=e92]:
+                    - gridcell [ref=e93]
+                    - gridcell [ref=e94]
+                    - gridcell "Borang Permohonan" [ref=e95]
+          - tab [expanded] [selected] [ref=e96]:
+            - link [ref=e97]:
+              - /url: "#centerForm:mainTab:tab4"
+              - grid [ref=e98]:
+                - rowgroup [ref=e99]:
+                  - row "Dokumen Disertakan" [ref=e100]:
+                    - gridcell [ref=e101]
+                    - gridcell [ref=e102]
+                    - gridcell "Dokumen Disertakan" [ref=e103]
+        - tabpanel [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e107]: Dokumen Disertakan
+            - grid [ref=e109]:
+              - rowgroup [ref=e110]:
+                - row "Bil. Nama Dokumen Bilangan Yang Perlu Diserahkan Di Kaunter Lampiran Dokumen Disertakan - Sila Muatnaik 1 Salinan Dokumen Sahaja Catatan" [ref=e111]:
+                  - columnheader [ref=e112]
+                  - columnheader "Bil." [ref=e113]
+                  - columnheader "Nama Dokumen" [ref=e114]
+                  - columnheader "Bilangan Yang Perlu Diserahkan Di Kaunter" [ref=e115]
+                  - columnheader "Lampiran" [ref=e116]
+                  - columnheader "Dokumen Disertakan - Sila Muatnaik 1 Salinan Dokumen Sahaja" [ref=e117]
+                  - columnheader "Catatan" [ref=e118]
+              - rowgroup [ref=e119]:
+                - row "1 Surat Permohonan yang telah ditandatangan 1 Choose File Tidak disertakan." [ref=e120]:
+                  - gridcell [ref=e121]
+                  - gridcell "1" [ref=e123]
+                  - gridcell "Surat Permohonan yang telah ditandatangan" [ref=e124]: Surat Permohonan yang telah ditandatangan
+                  - gridcell "1" [ref=e125]
+                  - gridcell "Choose File" [ref=e126]:
+                    - generic [ref=e128]:
+                      - button "Choose File" [ref=e131] [cursor=pointer]
+                      - generic [ref=e132]:
+                        - table:
+                          - rowgroup
+                  - gridcell "Tidak disertakan." [ref=e133]:
+                    - generic [ref=e136]: Tidak disertakan.
+                  - gridcell [ref=e137]:
+                    - textbox [ref=e138]
+                - row "2 Pelan Pengambilan Tanah yang lengkap (Dalam format jpeg, png, dan tiff sahaja) 1 Choose File Tidak disertakan." [ref=e139]:
+                  - gridcell [ref=e140]
+                  - gridcell "2" [ref=e142]
+                  - gridcell "Pelan Pengambilan Tanah yang lengkap (Dalam format jpeg, png, dan tiff sahaja)" [ref=e143]: Pelan Pengambilan Tanah yang lengkap (Dalam format jpeg, png, dan tiff sahaja)
+                  - gridcell "1" [ref=e144]
+                  - gridcell "Choose File" [ref=e145]:
+                    - generic [ref=e147]:
+                      - button "Choose File" [ref=e150] [cursor=pointer]
+                      - generic [ref=e151]:
+                        - table:
+                          - rowgroup
+                  - gridcell "Tidak disertakan." [ref=e152]:
+                    - generic [ref=e155]: Tidak disertakan.
+                  - gridcell [ref=e156]:
+                    - textbox [ref=e157]
+                - row "3 Pelan Pengambilan Tanah Digital (Dalam format dwg,dxf,tab,shp, dan ascii sahaja) 1 Choose File Tidak disertakan." [ref=e158]:
+                  - gridcell [ref=e159]
+                  - gridcell "3" [ref=e161]
+                  - gridcell "Pelan Pengambilan Tanah Digital (Dalam format dwg,dxf,tab,shp, dan ascii sahaja)" [ref=e162]: Pelan Pengambilan Tanah Digital (Dalam format dwg,dxf,tab,shp, dan ascii sahaja)
+                  - gridcell "1" [ref=e163]
+                  - gridcell "Choose File" [ref=e164]:
+                    - generic [ref=e166]:
+                      - button "Choose File" [ref=e169] [cursor=pointer]
+                      - generic [ref=e170]:
+                        - table:
+                          - rowgroup
+                  - gridcell "Tidak disertakan." [ref=e171]:
+                    - generic [ref=e174]: Tidak disertakan.
+                  - gridcell [ref=e175]:
+                    - textbox [ref=e176]
+                - row "4 Sijil Carian Rasmi/ Persendirian yang terkini 1 Choose File Tidak disertakan." [ref=e177]:
+                  - gridcell [ref=e178]
+                  - gridcell "4" [ref=e180]
+                  - gridcell "Sijil Carian Rasmi/ Persendirian yang terkini" [ref=e181]: Sijil Carian Rasmi/ Persendirian yang terkini
+                  - gridcell "1" [ref=e182]
+                  - gridcell "Choose File" [ref=e183]:
+                    - generic [ref=e185]:
+                      - button "Choose File" [ref=e188] [cursor=pointer]
+                      - generic [ref=e189]:
+                        - table:
+                          - rowgroup
+                  - gridcell "Tidak disertakan." [ref=e190]:
+                    - generic [ref=e193]: Tidak disertakan.
+                  - gridcell [ref=e194]:
+                    - textbox [ref=e195]
+                - row "5 Pengesahan Peruntukan yang mencukupi untuk membiayai kod pampasan kerosakan akibat kerja-kerja ukur dan kajian tanah 1 Choose File Tidak disertakan." [ref=e196]:
+                  - gridcell [ref=e197]
+                  - gridcell "5" [ref=e199]
+                  - gridcell "Pengesahan Peruntukan yang mencukupi untuk membiayai kod pampasan kerosakan akibat kerja-kerja ukur dan kajian tanah" [ref=e200]: Pengesahan Peruntukan yang mencukupi untuk membiayai kod pampasan kerosakan akibat kerja-kerja ukur dan kajian tanah
+                  - gridcell "1" [ref=e201]
+                  - gridcell "Choose File" [ref=e202]:
+                    - generic [ref=e204]:
+                      - button "Choose File" [ref=e207] [cursor=pointer]
+                      - generic [ref=e208]:
+                        - table:
+                          - rowgroup
+                  - gridcell "Tidak disertakan." [ref=e209]:
+                    - generic [ref=e212]: Tidak disertakan.
+                  - gridcell [ref=e213]:
+                    - textbox [ref=e214]
+          - generic [ref=e216]:
+            - generic [ref=e217]: Dokumen Tambahan
+            - grid [ref=e219]:
+              - rowgroup [ref=e220]:
+                - row "Bil. Nama Dokumen Lampiran Dokumen Disertakan Catatan" [ref=e221]:
+                  - columnheader [ref=e222]:
+                    - checkbox [ref=e224]
+                  - columnheader "Bil." [ref=e227]
+                  - columnheader "Nama Dokumen" [ref=e228]
+                  - columnheader "Lampiran" [ref=e229]
+                  - columnheader "Dokumen Disertakan" [ref=e230]
+                  - columnheader "Catatan" [ref=e231]
+              - rowgroup [ref=e232]:
+                - row "Tambah Hapus" [ref=e233]:
+                  - gridcell "Tambah Hapus" [ref=e234]:
+                    - button "Tambah" [ref=e235] [cursor=pointer]:
+                      - generic [ref=e236]: Tambah
+                    - button "Hapus" [disabled] [ref=e237]:
+                      - generic [ref=e238]: Hapus
+              - rowgroup [ref=e239]:
+                - row "Tiada rekod yang dijumpai." [ref=e240]:
+                  - gridcell "Tiada rekod yang dijumpai." [ref=e241]
+          - group "Perakuan" [ref=e243]:
+            - generic [ref=e245] [cursor=pointer]: Perakuan
+            - grid [ref=e252]:
+              - rowgroup [ref=e253]:
+                - row "Dengan ini saya mengakui bahawa maklumat yang dinyatakan adalah benar. Pihak Jabatan Ketua Pengarah Tanah Dan Galian Wilayah Persekutuan Kuala Lumpur berhak untuk membatalkan permohonan ini sekiranya terdapat maklumat palsu dan tidak benar." [ref=e254]:
+                  - gridcell [ref=e255]:
+                    - checkbox [ref=e257]
+                  - gridcell [ref=e260]
+                  - gridcell "Dengan ini saya mengakui bahawa maklumat yang dinyatakan adalah benar. Pihak Jabatan Ketua Pengarah Tanah Dan Galian Wilayah Persekutuan Kuala Lumpur berhak untuk membatalkan permohonan ini sekiranya terdapat maklumat palsu dan tidak benar." [ref=e261]:
+                    - text: Dengan ini saya mengakui bahawa maklumat yang dinyatakan adalah benar.
+                    - text: Pihak Jabatan Ketua Pengarah Tanah Dan Galian Wilayah Persekutuan Kuala Lumpur berhak untuk membatalkan permohonan ini sekiranya terdapat maklumat palsu dan tidak benar.
+                - row:
+                  - gridcell
+          - generic [ref=e264]:
+            - button "Sebelum" [ref=e265] [cursor=pointer]:
+              - generic [ref=e266]: Sebelum
+            - button "Simpan" [ref=e267] [cursor=pointer]:
+              - generic [ref=e268]: Simpan
+            - button "Hantar" [disabled] [ref=e269]:
+              - generic [ref=e270]: Hantar
+            - button "Isi Semula" [ref=e271] [cursor=pointer]:
+              - generic [ref=e272]: Isi Semula
+            - button "Keluar" [ref=e273] [cursor=pointer]:
+              - generic [ref=e274]: Keluar
+  - generic [ref=e275]:
+    - generic [ref=e276]:
+      - generic [ref=e277]:
+        - generic [ref=e278]: Helpdesk Perkhidmatan e-Tanah WP
+        - img [ref=e279]
+        - text: +603-2610 3337 / 2693 6429
+        - img [ref=e280]
+        - text: etanahwp@ptgwp.gov.my
+      - generic [ref=e281]:
+        - link "Dasar Privasi" [ref=e283] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/portal/dasar-privasi
+        - text: "|"
+        - link "Maklum Balas" [ref=e285] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/portal/web/guest/maklum-balas
+      - img [ref=e287]
+    - generic [ref=e288]:
+      - generic [ref=e291]:
+        - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Putrajaya
+        - text: Aras G, Block 2, Menara Seri Wilayah
+        - text: Presint 2, Pusat Pentadbiran Kerajaan Persekutuan
+        - text: 62100 Putrajaya
+      - generic [ref=e293]:
+        - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Kuala Lumpur
+        - text: Aras G-6, Rumah Persekutuan Jalan Sultan Hishamuddin
+        - text: 50678 Kuala Lumpur
+      - generic [ref=e295]:
+        - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Labuan
+        - text: E003, Tingkat 1, Aras Podium
+        - text: Kompleks Ujana Kewangan, Peti Surat 80693
+        - text: 80693 Labuan
+      - generic [ref=e297]:
+        - text: ® 2021 Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan (PPTGWP)
+        - text: Paparan terbaik menggunakan pelayar internet Safari, Google Chrome atau Mozilla Firefox yang terkini
+```

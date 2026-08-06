@@ -1,0 +1,204 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - link "awam-header" [ref=e8] [cursor=pointer]:
+      - /url: /etanah-awam/protected/awam/PapanBuletinForm.xhtml
+      - img "awam-header" [ref=e9]
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link:
+          - /url: /etanah-awam/protected/awam/AwamDashboardForm.xhtml
+          - img [ref=e13] [cursor=pointer]
+        - paragraph [ref=e14]: "DASHBOARD : MOHD IZWAN BIN ZAKARIA"
+        - paragraph [ref=e15]: "Jenis Akaun : Individu"
+      - generic [ref=e17]:
+        - link "Portal Rasmi PPTGWP Kuala Lumpur" [ref=e18] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/portal
+        - img "notifikasi" [ref=e20]
+        - link "Notifikasi (2)" [ref=e21] [cursor=pointer]:
+          - /url: /etanah-awam/protected/awam/PapanBuletinForm.xhtml
+        - img "log-keluar" [ref=e23]
+        - link "Log Keluar" [ref=e24] [cursor=pointer]:
+          - /url: /etanah-awam/j_spring_cas_security_logout
+  - generic [ref=e26]:
+    - generic [ref=e28]:
+      - paragraph [ref=e29]:
+        - link [ref=e30] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/EMohonMainMenuForm.xhtml
+      - paragraph [ref=e31]:
+        - link [ref=e32] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/StatusPermohonanForm.xhtml
+      - paragraph [ref=e33]:
+        - link [ref=e34] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/DaftarBilCukaiTanahForm.xhtml
+      - paragraph [ref=e35]:
+        - link [ref=e36] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/singlewindow/ECarianForm.xhtml
+      - paragraph [ref=e37]:
+        - link [ref=e38] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/HasilBayaranOnlineForm.xhtml
+      - paragraph [ref=e39]:
+        - link [ref=e40] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/PendaftaranBilKelompok.xhtml
+      - paragraph [ref=e41]:
+        - link [ref=e42] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/AwamPenggunaKemaskiniForm.xhtml
+      - paragraph [ref=e43]:
+        - link [ref=e44] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/AwamSemakanPermohonanTukargantiHakmilikForm.xhtml
+      - paragraph [ref=e45]:
+        - link [ref=e46] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/gis/CarianGisForm.xhtml
+      - paragraph [ref=e47]:
+        - link [ref=e48] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/PaparanRekodBayaranForm.xhtml
+    - generic [ref=e50]:
+      - list [ref=e51]:
+        - listitem [ref=e52]:
+          - link "Permohonan Atas Talian" [ref=e53] [cursor=pointer]:
+            - /url: /etanah-awam/protected/awam/EMohonMainMenuForm.xhtml
+        - listitem [ref=e54]:
+          - link "Consent" [ref=e55] [cursor=pointer]:
+            - /url: /etanah-awam/protected/awam/EMohonMainMenuForm.xhtml?modulKod=CON
+        - listitem [ref=e56]:
+          - generic [ref=e57]: Kebenaran Gadaian Tanah ( KGD(T))
+      - generic [ref=e58]:
+        - text: Kebenaran Gadaian Tanah
+        - link [ref=e60] [cursor=pointer]:
+          - /url: "#"
+      - paragraph [ref=e62]:
+        - strong [ref=e63]: Arahan.
+        - text: 1. Lengkapkan dan hantar borang Permohonan Atas Talian
+        - text: 2. Cetak Slip Permohonan Atas Talian (beserta borang permohonan dan senarai semak)
+        - text: 3. Hadir ke Kaunter Bayaran (bagi membuat bayaran seperti tertera di Resit Bayaran)
+        - text: 4. Serah dokumen serta bayar fi permohonan.
+        - text: 5. Sila pastikan klik butang 'Simpan' untuk menyimpan maklumat permohonan.
+      - generic [ref=e65]:
+        - tablist [ref=e66]:
+          - tab [ref=e67]:
+            - link [ref=e68]:
+              - /url: "#centerForm:mainTab:tab0"
+              - grid [ref=e69]:
+                - rowgroup [ref=e70]:
+                  - row "Pengesahan Serahan Secara Atas Talian" [ref=e71]:
+                    - gridcell [ref=e72]:
+                      - img [ref=e73]
+                    - gridcell [ref=e74]
+                    - gridcell "Pengesahan Serahan Secara Atas Talian" [ref=e75]:
+                      - generic [ref=e77]: Pengesahan Serahan Secara Atas Talian
+          - tab [ref=e78]:
+            - link [ref=e79]:
+              - /url: "#centerForm:mainTab:tab1"
+              - grid [ref=e80]:
+                - rowgroup [ref=e81]:
+                  - row "Bayaran" [ref=e82]:
+                    - gridcell [ref=e83]:
+                      - img [ref=e84]
+                    - gridcell [ref=e85]
+                    - gridcell "Bayaran" [ref=e86]:
+                      - generic [ref=e88]: Bayaran
+          - tab [expanded] [selected] [ref=e89]:
+            - link [ref=e90]:
+              - /url: "#centerForm:mainTab:tab2"
+              - grid [ref=e91]:
+                - rowgroup [ref=e92]:
+                  - row "Pengesahan Bayaran" [ref=e93]:
+                    - gridcell [ref=e94]:
+                      - img [ref=e95]
+                    - gridcell [ref=e96]
+                    - gridcell "Pengesahan Bayaran" [ref=e97]:
+                      - generic [ref=e99]: Pengesahan Bayaran
+        - tabpanel [ref=e101]:
+          - generic [ref=e102]:
+            - generic [ref=e104]:
+              - group "Resit Pembayaran / Payment Receipt" [ref=e105]:
+                - generic [ref=e106]: Resit Pembayaran / Payment Receipt
+                - generic [ref=e107]:
+                  - heading "Transaksi telah berjaya, terima kasih." [level=3] [ref=e108]:
+                    - paragraph [ref=e109]: Transaksi telah berjaya, terima kasih.
+                  - heading [level=6] [ref=e110]:
+                    - group [ref=e112]:
+                      - generic:
+                        - generic [ref=e113]:
+                          - generic [ref=e114]: Perihal Transaksi / Transaction Description
+                          - generic [ref=e116]: ":"
+                        - generic [ref=e118]: Kebenaran Gadaian Tanah
+                    - group [ref=e120]:
+                      - generic:
+                        - generic [ref=e121]:
+                          - generic [ref=e122]: No. Rujukan / Reference No.
+                          - generic [ref=e124]: ":"
+                        - generic [ref=e126]: 14KGD(T)2026000141
+                    - group [ref=e128]:
+                      - generic:
+                        - generic [ref=e129]:
+                          - generic [ref=e130]: Id. Transaksi / Transaction Id
+                          - generic [ref=e132]: ":"
+                        - generic [ref=e134]: "2607221639340299"
+                    - group [ref=e136]:
+                      - generic:
+                        - generic [ref=e137]:
+                          - generic [ref=e138]: Bank
+                          - generic [ref=e140]: ":"
+                        - generic [ref=e142]: SBI Bank A
+                    - group [ref=e144]:
+                      - generic:
+                        - generic [ref=e145]:
+                          - generic [ref=e146]: Tarikh & Masa / Date & Time
+                          - generic [ref=e148]: ":"
+                        - generic [ref=e150]: 22/07/2026 16:39:34
+                    - group [ref=e152]:
+                      - generic:
+                        - generic [ref=e153]:
+                          - generic [ref=e154]: Status
+                          - generic [ref=e156]: ":"
+                        - paragraph [ref=e159]: Transaction Successful
+                    - group [ref=e161]:
+                      - generic:
+                        - generic [ref=e162]:
+                          - generic [ref=e163]: Amaun Bayaran Yang Telah Dijelaskan / Paid Amount (RM)
+                          - generic [ref=e165]: ":"
+                        - generic [ref=e167]: "50.00"
+              - group [ref=e171]:
+                - generic [ref=e174]: Sebarang pertanyaan, sila hubungi talian e-Tanah Helpdesk +603-8889-7777
+            - generic [ref=e176]:
+              - button "Resit" [ref=e179] [cursor=pointer]:
+                - generic [ref=e180]: Resit
+              - button "Keluar" [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]: Keluar
+  - generic [ref=e185]:
+    - generic [ref=e186]:
+      - generic [ref=e187]:
+        - generic [ref=e188]: Helpdesk Perkhidmatan e-Tanah WP
+        - img [ref=e189]
+        - text: +603-2610 3337 / 2693 6429
+        - img [ref=e190]
+        - text: etanahwp@ptgwp.gov.my
+      - generic [ref=e191]:
+        - link "Dasar Privasi" [ref=e193] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/portal/dasar-privasi
+        - text: "|"
+        - link "Maklum Balas" [ref=e195] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/portal/web/guest/maklum-balas
+      - img [ref=e197]
+    - generic [ref=e198]:
+      - generic [ref=e201]:
+        - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Putrajaya
+        - text: Aras G, Block 2, Menara Seri Wilayah
+        - text: Presint 2, Pusat Pentadbiran Kerajaan Persekutuan
+        - text: 62100 Putrajaya
+      - generic [ref=e203]:
+        - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Kuala Lumpur
+        - text: Aras G-6, Rumah Persekutuan Jalan Sultan Hishamuddin
+        - text: 50678 Kuala Lumpur
+      - generic [ref=e205]:
+        - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Labuan
+        - text: E003, Tingkat 1, Aras Podium
+        - text: Kompleks Ujana Kewangan, Peti Surat 80693
+        - text: 80693 Labuan
+      - generic [ref=e207]:
+        - text: ® 2021 Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan (PPTGWP)
+        - text: Paparan terbaik menggunakan pelayar internet Safari, Google Chrome atau Mozilla Firefox yang terkini
+```

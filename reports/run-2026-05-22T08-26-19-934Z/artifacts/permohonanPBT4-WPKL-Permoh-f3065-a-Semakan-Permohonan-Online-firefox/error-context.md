@@ -1,0 +1,225 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e6]:
+    - link "awam-header" [ref=e8] [cursor=pointer]:
+      - /url: /etanah-awam/protected/awam/PapanBuletinForm.xhtml
+      - img "awam-header" [ref=e9]
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - link:
+          - /url: /etanah-awam/protected/awam/AwamDashboardForm.xhtml
+          - img [ref=e13] [cursor=pointer]
+        - paragraph [ref=e14]: "DASHBOARD : TEOH JIAN HWANG"
+        - paragraph [ref=e15]: "Jenis Akaun : Individu"
+      - generic [ref=e17]:
+        - link "Portal Rasmi PPTGWP Kuala Lumpur" [ref=e18] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/portal
+        - img "notifikasi" [ref=e20]
+        - link "Notifikasi (2)" [ref=e21] [cursor=pointer]:
+          - /url: /etanah-awam/protected/awam/PapanBuletinForm.xhtml
+        - img "log-keluar" [ref=e23]
+        - link "Log Keluar" [ref=e24] [cursor=pointer]:
+          - /url: /etanah-awam/j_spring_cas_security_logout
+  - generic [ref=e26]:
+    - generic [ref=e28]:
+      - paragraph [ref=e29]:
+        - link [ref=e30] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/EMohonMainMenuForm.xhtml
+      - paragraph [ref=e31]:
+        - link [ref=e32] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/StatusPermohonanForm.xhtml
+      - paragraph [ref=e33]:
+        - link [ref=e34] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/DaftarBilCukaiTanahForm.xhtml
+      - paragraph [ref=e35]:
+        - link [ref=e36] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/singlewindow/ECarianForm.xhtml
+      - paragraph [ref=e37]:
+        - link [ref=e38] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/HasilBayaranOnlineForm.xhtml
+      - paragraph [ref=e39]:
+        - link [ref=e40] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/PendaftaranBilKelompok.xhtml
+      - paragraph [ref=e41]:
+        - link [ref=e42] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/AwamPenggunaKemaskiniForm.xhtml
+      - paragraph [ref=e43]:
+        - link [ref=e44] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/AwamSemakanPermohonanTukargantiHakmilikForm.xhtml
+      - paragraph [ref=e45]:
+        - link [ref=e46] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/gis/CarianGisForm.xhtml
+      - paragraph [ref=e47]:
+        - link [ref=e48] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/PaparanRekodBayaranForm.xhtml
+    - generic [ref=e50]:
+      - generic [ref=e52]:
+        - img [ref=e53]
+        - generic [ref=e54]:
+          - strong [ref=e55]: "Perhatian:"
+          - text: Jika membuat pembayaran bagi urusan e2e online
+          - strong [ref=e56]: PERTAMA GAGAL
+          - text: ", dinasihatkan"
+          - strong [ref=e57]: TIDAK
+          - text: membuat
+          - strong [ref=e58]: PEMBAYARAN KEDUA
+          - text: dan terus laporkan kepada etanahwp@ptgwp.gov.my.
+          - text: Mohon sertakan maklumat pembayaran FPX sebagai bukti dan ID transaksi online untuk rujukan pihak kami.
+      - generic [ref=e59]:
+        - generic [ref=e60]: Status Permohonan / Perserahan
+        - generic [ref=e61]:
+          - generic [ref=e63] [cursor=pointer]:
+            - combobox [ref=e64]
+            - combobox [ref=e65]:
+              - option "3 bulan terakhir" [selected]
+              - option "6 bulan terakhir"
+              - option "1 tahun terakhir"
+              - option "3 tahun terakhir"
+            - generic [ref=e66]: 3 bulan terakhir
+          - generic [ref=e70]:
+            - grid [ref=e72]:
+              - rowgroup [ref=e73]:
+                - row "No. ID Transaksi Online (ID Permohonan) Tarikh Kemasukan Urusan ID Hakmilik Status Tindakan" [ref=e74]:
+                  - columnheader "No." [ref=e75]
+                  - columnheader "ID Transaksi Online (ID Permohonan)" [ref=e76] [cursor=pointer]:
+                    - text: ID Transaksi Online (ID Permohonan)
+                    - textbox [ref=e78]
+                  - columnheader "Tarikh Kemasukan" [ref=e79] [cursor=pointer]: Tarikh Kemasukan
+                  - columnheader "Urusan" [ref=e81] [cursor=pointer]:
+                    - text: Urusan
+                    - textbox [ref=e83]
+                  - columnheader "ID Hakmilik" [ref=e84]:
+                    - text: ID Hakmilik
+                    - textbox [ref=e85]
+                  - columnheader "Status" [ref=e86] [cursor=pointer]:
+                    - text: Status
+                    - textbox [ref=e88]
+                  - columnheader "Tindakan" [ref=e89]
+              - rowgroup [ref=e90]:
+                - row "1 9PBT42026000014 (PTGKL/9/PBT4/2026/11) 22/05/2026 4:28 PM PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960 140005GM00000079 Sedang Diproses" [ref=e91]:
+                  - gridcell "1" [ref=e92]:
+                    - generic [ref=e94]: "1"
+                  - gridcell "9PBT42026000014 (PTGKL/9/PBT4/2026/11)" [ref=e95]:
+                    - generic [ref=e98]:
+                      - text: 9PBT42026000014
+                      - text: (PTGKL/9/PBT4/2026/11)
+                  - gridcell "22/05/2026 4:28 PM" [ref=e99]
+                  - gridcell "PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960" [ref=e100]:
+                    - generic [ref=e102]: PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960
+                  - gridcell "140005GM00000079" [ref=e103]
+                  - gridcell "Sedang Diproses" [ref=e104]:
+                    - generic [ref=e106]: Sedang Diproses
+                  - gridcell [ref=e108]
+                - row "2 9PBT42026000013 22/05/2026 4:16 PM PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960 140005GM00000079 Permohonan Belum Diserah KemaskiniHapus" [ref=e111]:
+                  - gridcell "2" [ref=e112]:
+                    - generic [ref=e114]: "2"
+                  - gridcell "9PBT42026000013" [ref=e115]:
+                    - generic [ref=e117]: 9PBT42026000013
+                  - gridcell "22/05/2026 4:16 PM" [ref=e118]
+                  - gridcell "PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960" [ref=e119]:
+                    - generic [ref=e121]: PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960
+                  - gridcell "140005GM00000079" [ref=e122]
+                  - gridcell "Permohonan Belum Diserah" [ref=e123]:
+                    - generic [ref=e125]: Permohonan Belum Diserah
+                  - gridcell "KemaskiniHapus" [ref=e127]:
+                    - generic [ref=e129]:
+                      - link "Kemaskini" [ref=e130] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Kemaskini" [ref=e131]
+                      - link "Hapus" [ref=e132] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Hapus" [ref=e133]
+                - row "3 9PBT42026000012 22/05/2026 4:05 PM PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960 140005GM00000079 Permohonan Belum Diserah KemaskiniHapus" [ref=e135]:
+                  - gridcell "3" [ref=e136]:
+                    - generic [ref=e138]: "3"
+                  - gridcell "9PBT42026000012" [ref=e139]:
+                    - generic [ref=e141]: 9PBT42026000012
+                  - gridcell "22/05/2026 4:05 PM" [ref=e142]
+                  - gridcell "PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960" [ref=e143]:
+                    - generic [ref=e145]: PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960
+                  - gridcell "140005GM00000079" [ref=e146]
+                  - gridcell "Permohonan Belum Diserah" [ref=e147]:
+                    - generic [ref=e149]: Permohonan Belum Diserah
+                  - gridcell "KemaskiniHapus" [ref=e151]:
+                    - generic [ref=e153]:
+                      - link "Kemaskini" [ref=e154] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Kemaskini" [ref=e155]
+                      - link "Hapus" [ref=e156] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Hapus" [ref=e157]
+                - row "4 9PBT42026000010 (PTGKL/9/PBT4/2026/9) 21/05/2026 1:48 PM PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960 140005GM00000079 Sedang Diproses" [ref=e159]:
+                  - gridcell "4" [ref=e160]:
+                    - generic [ref=e162]: "4"
+                  - gridcell "9PBT42026000010 (PTGKL/9/PBT4/2026/9)" [ref=e163]:
+                    - generic [ref=e166]:
+                      - text: 9PBT42026000010
+                      - text: (PTGKL/9/PBT4/2026/9)
+                  - gridcell "21/05/2026 1:48 PM" [ref=e167]
+                  - gridcell "PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960" [ref=e168]:
+                    - generic [ref=e170]: PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960
+                  - gridcell "140005GM00000079" [ref=e171]
+                  - gridcell "Sedang Diproses" [ref=e172]:
+                    - generic [ref=e174]: Sedang Diproses
+                  - gridcell [ref=e176]
+                - row "5 9PBT42026000009 (PTGKL/9/PBT4/2026/8) 21/05/2026 1:42 PM PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960 140005GM00000079 Sedang Diproses" [ref=e179]:
+                  - gridcell "5" [ref=e180]:
+                    - generic [ref=e182]: "5"
+                  - gridcell "9PBT42026000009 (PTGKL/9/PBT4/2026/8)" [ref=e183]:
+                    - generic [ref=e186]:
+                      - text: 9PBT42026000009
+                      - text: (PTGKL/9/PBT4/2026/8)
+                  - gridcell "21/05/2026 1:42 PM" [ref=e187]
+                  - gridcell "PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960" [ref=e188]:
+                    - generic [ref=e190]: PBT4 - Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960
+                  - gridcell "140005GM00000079" [ref=e191]
+                  - gridcell "Sedang Diproses" [ref=e192]:
+                    - generic [ref=e194]: Sedang Diproses
+                  - gridcell [ref=e196]
+            - navigation [ref=e199]:
+              - generic [ref=e200]: Memaparkan 1-5 daripada 5 rekod
+              - generic [ref=e202]: p
+              - generic [ref=e204]: p
+              - generic [ref=e206] [cursor=pointer]: "1"
+              - generic [ref=e208]: p
+              - generic [ref=e210]: p
+              - combobox [ref=e211]:
+                - option "5"
+                - option "10" [selected]
+                - option "15"
+  - generic [ref=e212]:
+    - generic [ref=e213]:
+      - generic [ref=e214]:
+        - generic [ref=e215]: Helpdesk Perkhidmatan e-Tanah WP
+        - img [ref=e216]
+        - text: +603-2610 3337 / 2693 6429
+        - img [ref=e217]
+        - text: etanahwp@ptgwp.gov.my
+      - generic [ref=e218]:
+        - link "Dasar Privasi" [ref=e220] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/portal/dasar-privasi
+        - text: "|"
+        - link "Maklum Balas" [ref=e222] [cursor=pointer]:
+          - /url: https://awamwp.ptgwp.gov.my/portal/web/guest/maklum-balas
+      - img [ref=e224]
+    - generic [ref=e225]:
+      - generic [ref=e228]:
+        - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Putrajaya
+        - text: Aras G, Block 2, Menara Seri Wilayah
+        - text: Presint 2, Pusat Pentadbiran Kerajaan Persekutuan
+        - text: 62100 Putrajaya
+      - generic [ref=e230]:
+        - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Kuala Lumpur
+        - text: Aras G-6, Rumah Persekutuan Jalan Sultan Hishamuddin
+        - text: 50678 Kuala Lumpur
+      - generic [ref=e232]:
+        - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Labuan
+        - text: E003, Tingkat 1, Aras Podium
+        - text: Kompleks Ujana Kewangan, Peti Surat 80693
+        - text: 80693 Labuan
+      - generic [ref=e234]:
+        - text: ® 2021 Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan (PPTGWP)
+        - text: Paparan terbaik menggunakan pelayar internet Safari, Google Chrome atau Mozilla Firefox yang terkini
+```

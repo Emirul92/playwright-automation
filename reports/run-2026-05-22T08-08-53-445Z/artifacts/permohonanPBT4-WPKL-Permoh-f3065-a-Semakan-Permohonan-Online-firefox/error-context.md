@@ -1,0 +1,168 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - img [ref=e2]
+  - generic [ref=e5]:
+    - banner [ref=e7]:
+      - link "awam-header" [ref=e9] [cursor=pointer]:
+        - /url: /etanah-awam/protected/awam/PapanBuletinForm.xhtml
+        - img "awam-header" [ref=e10]
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - link:
+            - /url: /etanah-awam/protected/awam/AwamDashboardForm.xhtml
+            - img [ref=e14] [cursor=pointer]
+          - paragraph [ref=e15]: "DASHBOARD : TEOH JIAN HWANG"
+          - paragraph [ref=e16]: "Jenis Akaun : Individu"
+        - generic [ref=e18]:
+          - link "Portal Rasmi PPTGWP Kuala Lumpur" [ref=e19] [cursor=pointer]:
+            - /url: https://awamwp.ptgwp.gov.my/portal
+          - img "notifikasi" [ref=e21]
+          - link "Notifikasi (2)" [ref=e22] [cursor=pointer]:
+            - /url: /etanah-awam/protected/awam/PapanBuletinForm.xhtml
+          - img "log-keluar" [ref=e24]
+          - link "Log Keluar" [ref=e25] [cursor=pointer]:
+            - /url: /etanah-awam/j_spring_cas_security_logout
+    - generic [ref=e27]:
+      - generic [ref=e29]:
+        - paragraph [ref=e30]:
+          - link [ref=e31] [cursor=pointer]:
+            - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/EMohonMainMenuForm.xhtml
+        - paragraph [ref=e32]:
+          - link [ref=e33] [cursor=pointer]:
+            - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/StatusPermohonanForm.xhtml
+        - paragraph [ref=e34]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/DaftarBilCukaiTanahForm.xhtml
+        - paragraph [ref=e36]:
+          - link [ref=e37] [cursor=pointer]:
+            - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/singlewindow/ECarianForm.xhtml
+        - paragraph [ref=e38]:
+          - link [ref=e39] [cursor=pointer]:
+            - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/HasilBayaranOnlineForm.xhtml
+        - paragraph [ref=e40]:
+          - link [ref=e41] [cursor=pointer]:
+            - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/PendaftaranBilKelompok.xhtml
+        - paragraph [ref=e42]:
+          - link [ref=e43] [cursor=pointer]:
+            - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/AwamPenggunaKemaskiniForm.xhtml
+        - paragraph [ref=e44]:
+          - link [ref=e45] [cursor=pointer]:
+            - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/awam/AwamSemakanPermohonanTukargantiHakmilikForm.xhtml
+        - paragraph [ref=e46]:
+          - link [ref=e47] [cursor=pointer]:
+            - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/gis/CarianGisForm.xhtml
+        - paragraph [ref=e48]:
+          - link [ref=e49] [cursor=pointer]:
+            - /url: https://awamwp.ptgwp.gov.my/etanah-awam/protected/hasil/PaparanRekodBayaranForm.xhtml
+      - generic [ref=e51]:
+        - list [ref=e52]:
+          - listitem [ref=e53]:
+            - link "Permohonan Atas Talian" [ref=e54] [cursor=pointer]:
+              - /url: /etanah-awam/protected/awam/EMohonMainMenuForm.xhtml
+          - listitem [ref=e55]:
+            - link "Pengambilan" [ref=e56] [cursor=pointer]:
+              - /url: /etanah-awam/protected/awam/EMohonMainMenuForm.xhtml?modulKod=AMB
+          - listitem [ref=e57]:
+            - generic [ref=e58]: Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960 ( PBT4)
+        - generic [ref=e59]:
+          - text: Pengambilan Tanah Seksyen 4, 3(1)(a) APT 1960
+          - link [ref=e61] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e63]:
+          - tablist [ref=e64]:
+            - tab [ref=e65]:
+              - link [ref=e66] [cursor=pointer]:
+                - /url: "#centerForm:mainTab:tab0"
+                - grid [ref=e67]:
+                  - rowgroup [ref=e68]:
+                    - row "Maklumat Hakmilik" [ref=e69]:
+                      - gridcell [ref=e70]
+                      - gridcell [ref=e71]
+                      - gridcell "Maklumat Hakmilik" [ref=e72]
+            - tab [ref=e73]:
+              - link [ref=e74] [cursor=pointer]:
+                - /url: "#centerForm:mainTab:tab1"
+                - grid [ref=e75]:
+                  - rowgroup [ref=e76]:
+                    - row "Maklumat Pemohon" [ref=e77]:
+                      - gridcell [ref=e78]
+                      - gridcell [ref=e79]
+                      - gridcell "Maklumat Pemohon" [ref=e80]
+            - tab [ref=e81]:
+              - link [ref=e82] [cursor=pointer]:
+                - /url: "#centerForm:mainTab:tab2"
+                - grid [ref=e83]:
+                  - rowgroup [ref=e84]:
+                    - row "Maklumat Urusan" [ref=e85]:
+                      - gridcell [ref=e86]
+                      - gridcell [ref=e87]
+                      - gridcell "Maklumat Urusan" [ref=e88]
+            - tab [expanded] [selected] [ref=e89]:
+              - link [ref=e90]:
+                - /url: "#centerForm:mainTab:tab3"
+                - grid [ref=e91]:
+                  - rowgroup [ref=e92]:
+                    - row "Borang Permohonan" [ref=e93]:
+                      - gridcell [ref=e94]
+                      - gridcell [ref=e95]
+                      - gridcell "Borang Permohonan" [ref=e96]
+            - tab [ref=e97]:
+              - link [ref=e98]:
+                - /url: "#centerForm:mainTab:tab4"
+                - grid [ref=e99]:
+                  - rowgroup [ref=e100]:
+                    - row "Dokumen Disertakan" [ref=e101]:
+                      - gridcell [ref=e102]
+                      - gridcell [ref=e103]
+                      - gridcell "Dokumen Disertakan" [ref=e104]
+          - tabpanel [ref=e106]:
+            - group "Draf Borang Permohonan" [ref=e107]:
+              - generic [ref=e109] [cursor=pointer]: Draf Borang Permohonan
+              - generic [ref=e115]:
+                - iframe [ref=e118]
+                - button "Jana Semula" [ref=e120] [cursor=pointer]:
+                  - generic [ref=e121]: Jana Semula
+            - generic [ref=e124]:
+              - button "Sebelum" [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]: Sebelum
+              - button "Seterusnya" [active] [ref=e127] [cursor=pointer]:
+                - generic [ref=e128]: Seterusnya
+              - button "Keluar" [ref=e129] [cursor=pointer]:
+                - generic [ref=e130]: Keluar
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - generic [ref=e134]: Helpdesk Perkhidmatan e-Tanah WP
+          - img [ref=e135]
+          - text: +603-2610 3337 / 2693 6429
+          - img [ref=e136]
+          - text: etanahwp@ptgwp.gov.my
+        - generic [ref=e137]:
+          - link "Dasar Privasi" [ref=e139] [cursor=pointer]:
+            - /url: https://awamwp.ptgwp.gov.my/portal/dasar-privasi
+          - text: "|"
+          - link "Maklum Balas" [ref=e141] [cursor=pointer]:
+            - /url: https://awamwp.ptgwp.gov.my/portal/web/guest/maklum-balas
+        - img [ref=e143]
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Putrajaya
+          - text: Aras G, Block 2, Menara Seri Wilayah
+          - text: Presint 2, Pusat Pentadbiran Kerajaan Persekutuan
+          - text: 62100 Putrajaya
+        - generic [ref=e149]:
+          - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Kuala Lumpur
+          - text: Aras G-6, Rumah Persekutuan Jalan Sultan Hishamuddin
+          - text: 50678 Kuala Lumpur
+        - generic [ref=e151]:
+          - text: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Labuan
+          - text: E003, Tingkat 1, Aras Podium
+          - text: Kompleks Ujana Kewangan, Peti Surat 80693
+          - text: 80693 Labuan
+        - generic [ref=e153]:
+          - text: ® 2021 Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan (PPTGWP)
+          - text: Paparan terbaik menggunakan pelayar internet Safari, Google Chrome atau Mozilla Firefox yang terkini
+  - generic [ref=e154]: Tab seterusnya
+```

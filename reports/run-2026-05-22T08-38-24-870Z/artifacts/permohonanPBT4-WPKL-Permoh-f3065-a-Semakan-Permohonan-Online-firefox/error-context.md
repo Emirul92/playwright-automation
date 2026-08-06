@@ -1,0 +1,1170 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - navigation [ref=e6]:
+        - list [ref=e8]:
+          - listitem [ref=e9]
+          - listitem [ref=e10]:
+            - link "Portal PPTG WP" [ref=e11] [cursor=pointer]:
+              - /url: http://192.168.11.120:8180
+          - listitem [ref=e12]
+          - listitem [ref=e13]:
+            - link "Informasi Tanah" [ref=e14] [cursor=pointer]:
+              - /url: http://192.168.11.120:8180/bisnes-teras
+          - listitem [ref=e15]
+        - navigation [ref=e17]:
+          - list [ref=e18]:
+            - listitem [ref=e19]
+            - listitem [ref=e20]:
+              - navigation
+            - listitem [ref=e21]:
+              - navigation
+            - listitem [ref=e22]:
+              - link [ref=e23] [cursor=pointer]:
+                - /url: https://testing.ptgwp.gov.my/etanah-pengambilan/j_spring_cas_security_logout?usernameLogout=ahmadazron@jkptg.gov.my
+      - generic [ref=e24]:
+        - generic:
+          - link [ref=e27] [cursor=pointer]:
+            - /url: https://testing.ptgwp.gov.my/etanah-pengambilan/protected/IndexForm.xhtml
+            - img [ref=e28]
+          - generic [ref=e30]:
+            - generic [ref=e31]: AHMAD AZRON BIN RUSIDI
+            - generic [ref=e32]: Penolong Pegawai Tanah Kanan
+            - generic [ref=e33]: Jumaat, 22 Mei 2026, 04:43:23 PM
+    - generic [ref=e35]:
+      - heading "Menu" [level=6] [ref=e37] [cursor=pointer]:
+        - generic [ref=e38]:
+          - text: Menu
+          - emphasis
+      - generic [ref=e41]:
+        - complementary [ref=e42]:
+          - article:
+            - generic [ref=e44]:
+              - link "LAMAN UTAMA" [ref=e47] [cursor=pointer]:
+                - /url: /etanah-pengambilan/protected/SistemDashboardForm.xhtml
+                - generic [ref=e48]: LAMAN UTAMA
+              - generic [ref=e51] [cursor=pointer]: CARIAN
+              - generic [ref=e56] [cursor=pointer]: UTILITI
+              - generic [ref=e61] [cursor=pointer]: PENGAMBILAN
+              - link "LAPORAN" [ref=e66] [cursor=pointer]:
+                - /url: https://testing.ptgwp.gov.my/etanah-report-webapp/protected/LaporanMainMenuForm.xhtml
+                - generic [ref=e67]: LAPORAN
+              - generic [ref=e70] [cursor=pointer]: TEKNIKAL
+        - generic [ref=e75]:
+          - text: Semakan Permohonan Online
+          - generic [ref=e77]:
+            - tablist [ref=e78]:
+              - tab "Maklumat Penyerah" [expanded] [selected] [ref=e79]:
+                - link "Maklumat Penyerah" [ref=e80]:
+                  - /url: "#centerForm:tabView:maklumatPenyerahTab"
+              - tab "Senarai Semakan" [ref=e81]:
+                - link "Senarai Semakan" [ref=e82]:
+                  - /url: "#centerForm:tabView:senaraiSemakanTab"
+              - tab "Maklumat Permohonan" [ref=e83]:
+                - link "Maklumat Permohonan" [ref=e84]:
+                  - /url: "#centerForm:tabView:maklumatPermohonanTab"
+              - tab "Maklumat Tanah" [ref=e85]:
+                - link "Maklumat Tanah" [ref=e86]:
+                  - /url: "#centerForm:tabView:maklumatTanahTab"
+            - tabpanel [ref=e88]:
+              - group "Jenis Penyerah" [ref=e90]:
+                - generic [ref=e92] [cursor=pointer]: Jenis Penyerah
+                - generic [ref=e98]:
+                  - group [ref=e100]:
+                    - generic:
+                      - generic [ref=e101]:
+                        - generic [ref=e102]: Jenis Penyerah
+                        - generic [ref=e104]: ":"
+                      - generic [ref=e109] [cursor=pointer]:
+                        - combobox "Jenis Penyerah :" [ref=e110]
+                        - combobox [ref=e111]:
+                          - option "- Sila Pilih -"
+                          - option "Kementerian"
+                          - option "Badan Berkanun Persekutuan dibenarkan ambil tanah" [selected]
+                        - generic [ref=e112]: Badan Berkanun Persekutuan dibenarkan ambil tanah
+                  - generic [ref=e115]:
+                    - group [ref=e117]:
+                      - generic:
+                        - generic [ref=e118]:
+                          - generic [ref=e119]: Jenis Pengenalan
+                          - generic [ref=e121]: ":"
+                        - generic "Sila pilih Jenis Pengenalan." [ref=e125]:
+                          - generic [ref=e126] [cursor=pointer]:
+                            - combobox "Jenis Pengenalan :" [ref=e127]
+                            - combobox [ref=e128]:
+                              - option "- Sila Pilih -"
+                              - option "Kad Pengenalan Baru" [selected]
+                              - option "Kad Pengenalan Lama"
+                              - option "No. Bank"
+                              - option "No. Pasport"
+                              - option "No. Syarikat"
+                              - option "No. Polis"
+                              - option "No. Tentera"
+                              - option "No. Pertubuhan"
+                              - option "No. Pendaftaran"
+                              - option "No. Koperasi"
+                              - option "No. PLT"
+                            - generic [ref=e129]: Kad Pengenalan Baru
+                    - group [ref=e133]:
+                      - generic:
+                        - generic [ref=e134]:
+                          - generic [ref=e135]: Nombor Pengenalan
+                          - generic [ref=e137]: ":"
+                        - textbox "Nombor Pengenalan :" [ref=e142]:
+                          - /placeholder: ""
+                          - text: 890101-08-0101
+                  - group [ref=e144]:
+                    - generic:
+                      - generic [ref=e145]:
+                        - generic [ref=e146]: Nama Wakil
+                        - generic [ref=e148]: ":"
+                      - textbox "Nama Wakil :" [ref=e153]: ahmad bin abu
+                  - group [ref=e155]:
+                    - generic:
+                      - generic [ref=e156]:
+                        - generic [ref=e157]: Nama Kementerian/Jabatan
+                        - generic [ref=e159]: ":"
+                      - textbox "Nama Kementerian/Jabatan :" [active] [ref=e164]: JKR
+                  - group [ref=e166]:
+                    - generic:
+                      - generic [ref=e167]:
+                        - generic [ref=e168]: Cawangan/Unit
+                        - generic [ref=e170]: ":"
+                      - textbox "Cawangan/Unit :" [ref=e174]
+                  - generic [ref=e175]:
+                    - generic [ref=e176]:
+                      - group [ref=e178]:
+                        - generic:
+                          - generic [ref=e179]:
+                            - generic [ref=e180]: Alamat Berdaftar
+                            - generic [ref=e182]: ":"
+                          - textbox "Alamat Berdaftar :" [ref=e187]
+                      - group [ref=e189]:
+                        - generic:
+                          - generic [ref=e192]: ":"
+                          - textbox ":" [ref=e196]
+                      - group [ref=e198]:
+                        - generic:
+                          - generic [ref=e201]: ":"
+                          - textbox ":" [ref=e205]
+                      - group [ref=e207]:
+                        - generic:
+                          - generic [ref=e210]: ":"
+                          - textbox ":" [ref=e214]
+                      - group [ref=e216]:
+                        - generic:
+                          - generic [ref=e217]:
+                            - generic [ref=e218]: Poskod
+                            - generic [ref=e220]: ":"
+                          - textbox "Poskod :" [ref=e226]
+                      - group [ref=e229]:
+                        - generic:
+                          - generic [ref=e230]:
+                            - generic [ref=e231]: Negeri
+                            - generic [ref=e233]: ":"
+                          - generic "Sila masukkan alamat" [ref=e237]:
+                            - generic [ref=e238] [cursor=pointer]:
+                              - combobox "Negeri :" [ref=e239]
+                              - combobox [ref=e240]:
+                                - option "- Sila Pilih -" [selected]
+                                - option "JOHOR"
+                                - option "KEDAH"
+                                - option "KELANTAN"
+                                - option "MELAKA"
+                                - option "NEGERI SEMBILAN"
+                                - option "PAHANG"
+                                - option "PERAK"
+                                - option "PERLIS"
+                                - option "PULAU PINANG"
+                                - option "SABAH"
+                                - option "SARAWAK"
+                                - option "SELANGOR"
+                                - option "TERENGGANU"
+                                - option "WILAYAH PERSEKUTUAN KUALA LUMPUR"
+                                - option "WILAYAH PERSEKUTUAN LABUAN"
+                                - option "WILAYAH PERSEKUTUAN PUTRAJAYA"
+                              - generic [ref=e241]: "- Sila Pilih -"
+                      - group [ref=e245]:
+                        - generic:
+                          - generic [ref=e246]:
+                            - generic [ref=e247]: Bandar
+                            - generic [ref=e249]: ":"
+                          - generic "Sila masukkan alamat" [ref=e253]:
+                            - generic [ref=e254]:
+                              - combobox "Bandar :" [disabled] [ref=e255]
+                              - combobox [disabled] [ref=e256]:
+                                - option "- Sila Pilih -" [selected]
+                                - option "AJIL"
+                                - option "ALOR GAJAH"
+                                - option "ALOR SETAR"
+                                - option "AMPANG"
+                                - option "ARAU"
+                                - option "ASAHAN"
+                                - option "AYER BALOI"
+                                - option "AYER HITAM"
+                                - option "AYER HITAM"
+                                - option "AYER ITAM"
+                                - option "AYER LANAS"
+                                - option "AYER TAWAR"
+                                - option "BACHOK"
+                                - option "BAGAN DATOH"
+                                - option "BAGAN SERAI"
+                                - option "BAHAU"
+                                - option "BALIK PULAU"
+                                - option "BALING"
+                                - option "BALOK"
+                                - option "BANDAR BAHARU"
+                                - option "BANDAR BARU BANGI"
+                                - option "BANDAR BARU SERTING"
+                                - option "BANDAR BERA"
+                                - option "BANDAR PUSAT JENGKA"
+                                - option "BANDAR TUN ABDUL RAZAK"
+                                - option "BANTING"
+                                - option "BESTARI JAYA"
+                                - option "BATANG KALI"
+                                - option "BATANG MELAKA"
+                                - option "BATU 9 CHERAS"
+                                - option "BATU ANAM"
+                                - option "BATU ARANG"
+                                - option "BATU CAVES"
+                                - option "BATU FERINGGI"
+                                - option "BATU GAJAH"
+                                - option "BATU KIKIR"
+                                - option "BATU KURAU"
+                                - option "BATU MAUNG"
+                                - option "BATU PAHAT"
+                                - option "BAU"
+                                - option "BAYAN LEPAS"
+                                - option "BEAUFORT"
+                                - option "BEDONG"
+                                - option "BEHRANG STESEN"
+                                - option "BEKENU"
+                                - option "BEKOK"
+                                - option "BELAGA"
+                                - option "BELURAN"
+                                - option "BEMBAN"
+                                - option "BENTA"
+                                - option "BENTONG"
+                                - option "BENUT"
+                                - option "BERANANG"
+                                - option "BESUT"
+                                - option "BETONG"
+                                - option "BIDOR"
+                                - option "BINTULU"
+                                - option "BONGAWAN"
+                                - option "BOTA"
+                                - option "BRINCHANG"
+                                - option "BRUAS"
+                                - option "BUKIT BESI"
+                                - option "BUKIT FRASER"
+                                - option "BUKIT GAMBIR"
+                                - option "BUKIT GOH"
+                                - option "BUKIT KAYU HITAM"
+                                - option "BUKIT MERTAJAM"
+                                - option "BUKIT PASIR"
+                                - option "BUKIT ROTAN"
+                                - option "BUTTERWORTH"
+                                - option "CHAAH"
+                                - option "CHANGKAT JERING"
+                                - option "CHANGKAT KERUING"
+                                - option "CHEMOR"
+                                - option "CHENDERIANG"
+                                - option "CAMERON HIGHLANDS"
+                                - option "CHENDERONG BALAI"
+                                - option "CHENOR"
+                                - option "CHERANG RUKU"
+                                - option "CHIKUS"
+                                - option "CHINI"
+                                - option "CUKAI"
+                                - option "CYBERJAYA"
+                                - option "DABONG"
+                                - option "DALAT"
+                                - option "DAMAK"
+                                - option "DARO"
+                                - option "DEBAK"
+                                - option "DENGKIL"
+                                - option "DONG"
+                                - option "DUNGUN"
+                                - option "DURIAN TUNGGAL"
+                                - option "ENDAU"
+                                - option "ENGGOR"
+                                - option "ENGKILILI"
+                                - option "GAMBANG"
+                                - option "GELANG PATAH"
+                                - option "GELUGOR"
+                                - option "GEMAS"
+                                - option "GEMENCHEH"
+                                - option "GENTING HIGHLANDS"
+                                - option "GERIK"
+                                - option "GERISEK"
+                                - option "GOPENG"
+                                - option "GUA MUSANG"
+                                - option "GURUN"
+                                - option "HULU LANGAT"
+                                - option "HUTAN MELINTANG"
+                                - option "INTAN"
+                                - option "IPOH"
+                                - option "JASIN"
+                                - option "JELI"
+                                - option "JEMENTAH"
+                                - option "JENIANG"
+                                - option "JENJAROM"
+                                - option "JERAM"
+                                - option "JERAM"
+                                - option "JERANTUT"
+                                - option "JERTEH"
+                                - option "JITRA"
+                                - option "JOHOL"
+                                - option "JOHOR BAHRU"
+                                - option "JUASSEH"
+                                - option "JULAU"
+                                - option "KLIA"
+                                - option "KAHANG"
+                                - option "KAJANG"
+                                - option "KAKI BUKIT"
+                                - option "KAMPAR"
+                                - option "KAMPONG GAJAH"
+                                - option "KAMPONG KEPAYANG"
+                                - option "KAMPONG RAJA"
+                                - option "KAMPUNG LINGGA"
+                                - option "KAMUNTING"
+                                - option "KANGAR"
+                                - option "KANOWIT"
+                                - option "KAPAR"
+                                - option "KAPIT"
+                                - option "KARAK"
+                                - option "KARANGAN"
+                                - option "KEM DESA PAHLAWAN"
+                                - option "KEMAMAN"
+                                - option "KEMASEK"
+                                - option "KEMAYAN"
+                                - option "KENINGAU"
+                                - option "KEPALA BATAS"
+                                - option "KEPALA BATAS"
+                                - option "KERLING"
+                                - option "KETEREH"
+                                - option "KLANG"
+                                - option "KLUANG"
+                                - option "KODIANG"
+                                - option "KOTA"
+                                - option "KOTA BELUD"
+                                - option "KOTA BHARU"
+                                - option "KOTA KINABALU"
+                                - option "KOTA KUALA MUDA"
+                                - option "KOTA SARANG SEMUT"
+                                - option "KOTA TINGGI"
+                                - option "KUALA BALAH"
+                                - option "KUALA BERANG"
+                                - option "KUALA BESUT"
+                                - option "KUALA KANGSAR"
+                                - option "KUALA KEDAH"
+                                - option "KUALA KETIL"
+                                - option "KUALA KLAWANG"
+                                - option "KUALA KRAI"
+                                - option "KUALA KRAU"
+                                - option "KUALA KUBU BARU"
+                                - option "KUALA KURAU"
+                                - option "KUALA LIPIS"
+                                - option "KUALA LUMPUR"
+                                - option "KUALA NERANG"
+                                - option "KUALA PENYU"
+                                - option "KUALA PERLIS"
+                                - option "KUALA PILAH"
+                                - option "KUALA ROMPIN"
+                                - option "KUALA SELANGOR"
+                                - option "KUALA SEPETANG"
+                                - option "KUALA TERENGGANU"
+                                - option "KUANTAN"
+                                - option "KUBANG SEMANG"
+                                - option "KUCHING"
+                                - option "KUDAT"
+                                - option "KUKUP"
+                                - option "KULAI"
+                                - option "KULAIJAYA"
+                                - option "KULIM"
+                                - option "KUNAK"
+                                - option "KUPANG"
+                                - option "LABIS"
+                                - option "LABU"
+                                - option "LABUAN"
+                                - option "LAHAD DATU"
+                                - option "LAHAT"
+                                - option "LAMBOR KANAN"
+                                - option "LANCHANG"
+                                - option "LANGGAR"
+                                - option "LANGKAP"
+                                - option "LANGKAWI"
+                                - option "LAWAS"
+                                - option "LAYANG-LAYANG"
+                                - option "LENGGENG"
+                                - option "LENGGONG"
+                                - option "LIMBANG"
+                                - option "LINGGI"
+                                - option "LUBOK ANTU"
+                                - option "LUMUT"
+                                - option "LUNAS"
+                                - option "LUNDU"
+                                - option "LURAH BILUT"
+                                - option "MACHANG"
+                                - option "MALIM NAWAR"
+                                - option "MAMBANG DI AWAN"
+                                - option "MANONG"
+                                - option "MANTIN"
+                                - option "MARAN"
+                                - option "MARANG"
+                                - option "MASAI"
+                                - option "MASJID TANAH"
+                                - option "MATANG"
+                                - option "MATU"
+                                - option "MELAKA"
+                                - option "MELOR"
+                                - option "MEMBAKUT"
+                                - option "MENGLEMBU"
+                                - option "MENTAKAB"
+                                - option "MERBOK"
+                                - option "MERLIMAU"
+                                - option "MERSING"
+                                - option "MUADZAM SHAH"
+                                - option "MUAR"
+                                - option "MUKAH"
+                                - option "NIBONG TEBAL"
+                                - option "NILAI"
+                                - option "PADANG BESAR"
+                                - option "PADANG RENGAS"
+                                - option "PADANG SERAI"
+                                - option "PADANG TENGKU"
+                                - option "PAGOH"
+                                - option "PALOH"
+                                - option "PANCHOR"
+                                - option "PANGKOR"
+                                - option "PANTAI REMIS"
+                                - option "PAPAR"
+                                - option "PARIT"
+                                - option "PARIT BUNTAR"
+                                - option "PARIT JAWA"
+                                - option "PARIT RAJA"
+                                - option "PARIT SULONG"
+                                - option "PASIR GUDANG"
+                                - option "PASIR MAS"
+                                - option "PASIR PANJANG"
+                                - option "PASIR PUTEH"
+                                - option "PEDAS"
+                                - option "PEKAN"
+                                - option "PEKAN NENAS"
+                                - option "PELABUHAN KLANG"
+                                - option "PENAGA"
+                                - option "PENAMPANG"
+                                - option "PENANG HILL"
+                                - option "PENDANG"
+                                - option "PENGKALAN HULU"
+                                - option "PERAI"
+                                - option "PERMAISURI"
+                                - option "PERMATANG PAUH"
+                                - option "PETALING JAYA"
+                                - option "POKOK SENA"
+                                - option "PONTIAN"
+                                - option "PORT DICKSON"
+                                - option "PUCHONG"
+                                - option "PULAI CHONDONG"
+                                - option "PULAU CAREY"
+                                - option "PULAU KETAM"
+                                - option "PULAU LUMUT"
+                                - option "PULAU PINANG"
+                                - option "PUSA"
+                                - option "PUSAT BANDAR PALONG"
+                                - option "PUSING"
+                                - option "PUTRAJAYA"
+                                - option "RANAU"
+                                - option "RANTAU"
+                                - option "RANTAU PANJANG"
+                                - option "RANTAU PANJANG"
+                                - option "RASA"
+                                - option "RAUB"
+                                - option "RAWANG"
+                                - option "REMBAU"
+                                - option "RENGAM"
+                                - option "RENGIT"
+                                - option "RINGLET"
+                                - option "ROMPIN"
+                                - option "SABAK BERNAM"
+                                - option "SANDAKAN"
+                                - option "SARATOK"
+                                - option "SARIKEI"
+                                - option "SAUK"
+                                - option "SEBUYAU"
+                                - option "SEGA"
+                                - option "SEGAMAT"
+                                - option "SEKINCHAN"
+                                - option "SELAMA"
+                                - option "SELANDAR"
+                                - option "SELEKOH"
+                                - option "SELISING"
+                                - option "SEMENYIH"
+                                - option "SEMERAH"
+                                - option "SEMPORNA"
+                                - option "SENAI"
+                                - option "SENGGARANG"
+                                - option "SEPANG"
+                                - option "SERDANG"
+                                - option "SERENDAH"
+                                - option "SERI GADING"
+                                - option "SERI KEMBANGAN"
+                                - option "SERI MANJUNG"
+                                - option "SERI MEDAN"
+                                - option "SERIAN"
+                                - option "SETIU"
+                                - option "SHAH ALAM"
+                                - option "SI RUSA"
+                                - option "SIBU"
+                                - option "SIBURAN"
+                                - option "SIK"
+                                - option "SILIAU"
+                                - option "SIMPANG"
+                                - option "SIMPANG AMPAT"
+                                - option "SIMPANG AMPAT"
+                                - option "SIMPANG AMPAT SEMANGGOL"
+                                - option "SIMPANG DURIAN"
+                                - option "SIMPANG EMPAT"
+                                - option "SIMPANG PERTANG"
+                                - option "SIMUNJAN"
+                                - option "SIPITANG"
+                                - option "SITIAWAN"
+                                - option "SLIM RIVER"
+                                - option "SONG"
+                                - option "SPAOH"
+                                - option "SRI AMAN"
+                                - option "SRI MENANTI"
+                                - option "SUBANG JAYA"
+                                - option "SUNGAI AYER TAWAR"
+                                - option "SUNGAI BESAR"
+                                - option "SUNGAI BULOH"
+                                - option "SUNGAI JAWI"
+                                - option "SUNGAI KOYAN"
+                                - option "SUNGAI LEMBING"
+                                - option "SUNGAI MATI"
+                                - option "SUNGAI PELEK"
+                                - option "SUNGAI PETANI"
+                                - option "SUNGAI RAMBAI"
+                                - option "SUNGAI RUAN"
+                                - option "SUNGAI SIPUT"
+                                - option "SUNGAI SUMUN"
+                                - option "SUNGKAI"
+                                - option "TLDM LUMUT"
+                                - option "TAIPING"
+                                - option "TAMBUNAN"
+                                - option "TAMPARULI"
+                                - option "TAMPIN"
+                                - option "TANAH MERAH"
+                                - option "TANAH RATA"
+                                - option "TANGKAK"
+                                - option "TANJONG BUNGAH"
+                                - option "TANJONG IPOH"
+                                - option "TANJONG KARANG"
+                                - option "TANJONG KLING"
+                                - option "TANJONG MALIM"
+                                - option "TANJONG PIANDANG"
+                                - option "TANJONG RAMBUTAN"
+                                - option "TANJONG SEPAT"
+                                - option "TANJONG TUALANG"
+                                - option "TAPAH"
+                                - option "TAPAH ROAD"
+                                - option "TASEK GELUGOR"
+                                - option "TATAU"
+                                - option "TAWAU"
+                                - option "TELOK PANGLIMA GARANG"
+                                - option "TELUK INTAN"
+                                - option "TEMANGAN"
+                                - option "TEMERLOH"
+                                - option "TEMOH"
+                                - option "TENOM"
+                                - option "TITI"
+                                - option "TRIANG"
+                                - option "TROLAK"
+                                - option "TRONG"
+                                - option "TRONOH"
+                                - option "TUARAN"
+                                - option "TUMPAT"
+                                - option "UKM BANGI"
+                                - option "UPM SERDANG"
+                                - option "USM PULAU PINANG"
+                                - option "ULU BERNAM"
+                                - option "ULU KINTA"
+                                - option "ULU SELANGOR"
+                                - option "ULU TIRAM"
+                                - option "UNIVERSITI UTARA MALAYSIA"
+                                - option "WAKAF BHARU"
+                                - option "YAN"
+                                - option "YONG PENG"
+                                - option "KELANA JAYA"
+                                - option "CHERAS"
+                                - option "GOMBAK"
+                                - option "KEPONG"
+                                - option "LAIN-LAIN"
+                                - option "SELAYANG"
+                                - option "BANDAR PUNCAK ALAM"
+                                - option "JELUTONG"
+                                - option "BALAKONG"
+                                - option "AL MUKTAFI BILLAH SHAH"
+                                - option "AYER KEROH"
+                                - option "TAMPIN"
+                                - option "MIRI"
+                                - option "SUNGAI SIPUT (U)"
+                                - option "SUNGAI SIPUT (S)"
+                                - option "HULU KLANG"
+                                - option "SKUDAI"
+                                - option "BANDAR SERI JEMPOL"
+                                - option "GEORGETOWN"
+                                - option "SEREMBAN"
+                                - option "CHUKAI"
+                                - option "SIMPANG RENGGAM"
+                                - option "SETIAWAN"
+                              - generic [ref=e257]: "- Sila Pilih -"
+                    - group [ref=e262]:
+                      - generic [ref=e265]:
+                        - checkbox [ref=e267]
+                        - text: Seperti Alamat Berdaftar
+                    - generic [ref=e270]:
+                      - group [ref=e273]:
+                        - generic:
+                          - generic [ref=e274]:
+                            - generic [ref=e275]: Alamat Surat-Menyurat
+                            - generic [ref=e277]: ":"
+                          - textbox "Alamat Surat-Menyurat :" [ref=e282]
+                      - group [ref=e285]:
+                        - generic:
+                          - generic [ref=e288]: ":"
+                          - textbox ":" [ref=e292]
+                      - group [ref=e295]:
+                        - generic:
+                          - generic [ref=e298]: ":"
+                          - textbox ":" [ref=e302]
+                      - group [ref=e305]:
+                        - generic:
+                          - generic [ref=e308]: ":"
+                          - textbox ":" [ref=e312]
+                      - group [ref=e315]:
+                        - generic:
+                          - generic [ref=e316]:
+                            - generic [ref=e317]: Poskod
+                            - generic [ref=e319]: ":"
+                          - textbox "Poskod :" [ref=e325]
+                      - generic [ref=e326]:
+                        - group [ref=e329]:
+                          - generic:
+                            - generic [ref=e330]:
+                              - generic [ref=e331]: Negeri
+                              - generic [ref=e333]: ":"
+                            - generic "Sila masukkan alamat" [ref=e337]:
+                              - generic [ref=e338] [cursor=pointer]:
+                                - combobox "Negeri :" [ref=e339]
+                                - combobox [ref=e340]:
+                                  - option "- Sila Pilih -" [selected]
+                                  - option "JOHOR"
+                                  - option "KEDAH"
+                                  - option "KELANTAN"
+                                  - option "MELAKA"
+                                  - option "NEGERI SEMBILAN"
+                                  - option "PAHANG"
+                                  - option "PERAK"
+                                  - option "PERLIS"
+                                  - option "PULAU PINANG"
+                                  - option "SABAH"
+                                  - option "SARAWAK"
+                                  - option "SELANGOR"
+                                  - option "TERENGGANU"
+                                  - option "WILAYAH PERSEKUTUAN KUALA LUMPUR"
+                                  - option "WILAYAH PERSEKUTUAN LABUAN"
+                                  - option "WILAYAH PERSEKUTUAN PUTRAJAYA"
+                                - generic [ref=e341]: "- Sila Pilih -"
+                        - group [ref=e345]:
+                          - generic:
+                            - generic [ref=e346]:
+                              - generic [ref=e347]: Bandar
+                              - generic [ref=e349]: ":"
+                            - generic "Sila masukkan alamat" [ref=e353]:
+                              - generic [ref=e354]:
+                                - combobox "Bandar :" [disabled] [ref=e355]
+                                - combobox [disabled] [ref=e356]:
+                                  - option "- Sila Pilih -" [selected]
+                                  - option "AJIL"
+                                  - option "ALOR GAJAH"
+                                  - option "ALOR SETAR"
+                                  - option "AMPANG"
+                                  - option "ARAU"
+                                  - option "ASAHAN"
+                                  - option "AYER BALOI"
+                                  - option "AYER HITAM"
+                                  - option "AYER HITAM"
+                                  - option "AYER ITAM"
+                                  - option "AYER LANAS"
+                                  - option "AYER TAWAR"
+                                  - option "BACHOK"
+                                  - option "BAGAN DATOH"
+                                  - option "BAGAN SERAI"
+                                  - option "BAHAU"
+                                  - option "BALIK PULAU"
+                                  - option "BALING"
+                                  - option "BALOK"
+                                  - option "BANDAR BAHARU"
+                                  - option "BANDAR BARU BANGI"
+                                  - option "BANDAR BARU SERTING"
+                                  - option "BANDAR BERA"
+                                  - option "BANDAR PUSAT JENGKA"
+                                  - option "BANDAR TUN ABDUL RAZAK"
+                                  - option "BANTING"
+                                  - option "BESTARI JAYA"
+                                  - option "BATANG KALI"
+                                  - option "BATANG MELAKA"
+                                  - option "BATU 9 CHERAS"
+                                  - option "BATU ANAM"
+                                  - option "BATU ARANG"
+                                  - option "BATU CAVES"
+                                  - option "BATU FERINGGI"
+                                  - option "BATU GAJAH"
+                                  - option "BATU KIKIR"
+                                  - option "BATU KURAU"
+                                  - option "BATU MAUNG"
+                                  - option "BATU PAHAT"
+                                  - option "BAU"
+                                  - option "BAYAN LEPAS"
+                                  - option "BEAUFORT"
+                                  - option "BEDONG"
+                                  - option "BEHRANG STESEN"
+                                  - option "BEKENU"
+                                  - option "BEKOK"
+                                  - option "BELAGA"
+                                  - option "BELURAN"
+                                  - option "BEMBAN"
+                                  - option "BENTA"
+                                  - option "BENTONG"
+                                  - option "BENUT"
+                                  - option "BERANANG"
+                                  - option "BESUT"
+                                  - option "BETONG"
+                                  - option "BIDOR"
+                                  - option "BINTULU"
+                                  - option "BONGAWAN"
+                                  - option "BOTA"
+                                  - option "BRINCHANG"
+                                  - option "BRUAS"
+                                  - option "BUKIT BESI"
+                                  - option "BUKIT FRASER"
+                                  - option "BUKIT GAMBIR"
+                                  - option "BUKIT GOH"
+                                  - option "BUKIT KAYU HITAM"
+                                  - option "BUKIT MERTAJAM"
+                                  - option "BUKIT PASIR"
+                                  - option "BUKIT ROTAN"
+                                  - option "BUTTERWORTH"
+                                  - option "CHAAH"
+                                  - option "CHANGKAT JERING"
+                                  - option "CHANGKAT KERUING"
+                                  - option "CHEMOR"
+                                  - option "CHENDERIANG"
+                                  - option "CAMERON HIGHLANDS"
+                                  - option "CHENDERONG BALAI"
+                                  - option "CHENOR"
+                                  - option "CHERANG RUKU"
+                                  - option "CHIKUS"
+                                  - option "CHINI"
+                                  - option "CUKAI"
+                                  - option "CYBERJAYA"
+                                  - option "DABONG"
+                                  - option "DALAT"
+                                  - option "DAMAK"
+                                  - option "DARO"
+                                  - option "DEBAK"
+                                  - option "DENGKIL"
+                                  - option "DONG"
+                                  - option "DUNGUN"
+                                  - option "DURIAN TUNGGAL"
+                                  - option "ENDAU"
+                                  - option "ENGGOR"
+                                  - option "ENGKILILI"
+                                  - option "GAMBANG"
+                                  - option "GELANG PATAH"
+                                  - option "GELUGOR"
+                                  - option "GEMAS"
+                                  - option "GEMENCHEH"
+                                  - option "GENTING HIGHLANDS"
+                                  - option "GERIK"
+                                  - option "GERISEK"
+                                  - option "GOPENG"
+                                  - option "GUA MUSANG"
+                                  - option "GURUN"
+                                  - option "HULU LANGAT"
+                                  - option "HUTAN MELINTANG"
+                                  - option "INTAN"
+                                  - option "IPOH"
+                                  - option "JASIN"
+                                  - option "JELI"
+                                  - option "JEMENTAH"
+                                  - option "JENIANG"
+                                  - option "JENJAROM"
+                                  - option "JERAM"
+                                  - option "JERAM"
+                                  - option "JERANTUT"
+                                  - option "JERTEH"
+                                  - option "JITRA"
+                                  - option "JOHOL"
+                                  - option "JOHOR BAHRU"
+                                  - option "JUASSEH"
+                                  - option "JULAU"
+                                  - option "KLIA"
+                                  - option "KAHANG"
+                                  - option "KAJANG"
+                                  - option "KAKI BUKIT"
+                                  - option "KAMPAR"
+                                  - option "KAMPONG GAJAH"
+                                  - option "KAMPONG KEPAYANG"
+                                  - option "KAMPONG RAJA"
+                                  - option "KAMPUNG LINGGA"
+                                  - option "KAMUNTING"
+                                  - option "KANGAR"
+                                  - option "KANOWIT"
+                                  - option "KAPAR"
+                                  - option "KAPIT"
+                                  - option "KARAK"
+                                  - option "KARANGAN"
+                                  - option "KEM DESA PAHLAWAN"
+                                  - option "KEMAMAN"
+                                  - option "KEMASEK"
+                                  - option "KEMAYAN"
+                                  - option "KENINGAU"
+                                  - option "KEPALA BATAS"
+                                  - option "KEPALA BATAS"
+                                  - option "KERLING"
+                                  - option "KETEREH"
+                                  - option "KLANG"
+                                  - option "KLUANG"
+                                  - option "KODIANG"
+                                  - option "KOTA"
+                                  - option "KOTA BELUD"
+                                  - option "KOTA BHARU"
+                                  - option "KOTA KINABALU"
+                                  - option "KOTA KUALA MUDA"
+                                  - option "KOTA SARANG SEMUT"
+                                  - option "KOTA TINGGI"
+                                  - option "KUALA BALAH"
+                                  - option "KUALA BERANG"
+                                  - option "KUALA BESUT"
+                                  - option "KUALA KANGSAR"
+                                  - option "KUALA KEDAH"
+                                  - option "KUALA KETIL"
+                                  - option "KUALA KLAWANG"
+                                  - option "KUALA KRAI"
+                                  - option "KUALA KRAU"
+                                  - option "KUALA KUBU BARU"
+                                  - option "KUALA KURAU"
+                                  - option "KUALA LIPIS"
+                                  - option "KUALA LUMPUR"
+                                  - option "KUALA NERANG"
+                                  - option "KUALA PENYU"
+                                  - option "KUALA PERLIS"
+                                  - option "KUALA PILAH"
+                                  - option "KUALA ROMPIN"
+                                  - option "KUALA SELANGOR"
+                                  - option "KUALA SEPETANG"
+                                  - option "KUALA TERENGGANU"
+                                  - option "KUANTAN"
+                                  - option "KUBANG SEMANG"
+                                  - option "KUCHING"
+                                  - option "KUDAT"
+                                  - option "KUKUP"
+                                  - option "KULAI"
+                                  - option "KULAIJAYA"
+                                  - option "KULIM"
+                                  - option "KUNAK"
+                                  - option "KUPANG"
+                                  - option "LABIS"
+                                  - option "LABU"
+                                  - option "LABUAN"
+                                  - option "LAHAD DATU"
+                                  - option "LAHAT"
+                                  - option "LAMBOR KANAN"
+                                  - option "LANCHANG"
+                                  - option "LANGGAR"
+                                  - option "LANGKAP"
+                                  - option "LANGKAWI"
+                                  - option "LAWAS"
+                                  - option "LAYANG-LAYANG"
+                                  - option "LENGGENG"
+                                  - option "LENGGONG"
+                                  - option "LIMBANG"
+                                  - option "LINGGI"
+                                  - option "LUBOK ANTU"
+                                  - option "LUMUT"
+                                  - option "LUNAS"
+                                  - option "LUNDU"
+                                  - option "LURAH BILUT"
+                                  - option "MACHANG"
+                                  - option "MALIM NAWAR"
+                                  - option "MAMBANG DI AWAN"
+                                  - option "MANONG"
+                                  - option "MANTIN"
+                                  - option "MARAN"
+                                  - option "MARANG"
+                                  - option "MASAI"
+                                  - option "MASJID TANAH"
+                                  - option "MATANG"
+                                  - option "MATU"
+                                  - option "MELAKA"
+                                  - option "MELOR"
+                                  - option "MEMBAKUT"
+                                  - option "MENGLEMBU"
+                                  - option "MENTAKAB"
+                                  - option "MERBOK"
+                                  - option "MERLIMAU"
+                                  - option "MERSING"
+                                  - option "MUADZAM SHAH"
+                                  - option "MUAR"
+                                  - option "MUKAH"
+                                  - option "NIBONG TEBAL"
+                                  - option "NILAI"
+                                  - option "PADANG BESAR"
+                                  - option "PADANG RENGAS"
+                                  - option "PADANG SERAI"
+                                  - option "PADANG TENGKU"
+                                  - option "PAGOH"
+                                  - option "PALOH"
+                                  - option "PANCHOR"
+                                  - option "PANGKOR"
+                                  - option "PANTAI REMIS"
+                                  - option "PAPAR"
+                                  - option "PARIT"
+                                  - option "PARIT BUNTAR"
+                                  - option "PARIT JAWA"
+                                  - option "PARIT RAJA"
+                                  - option "PARIT SULONG"
+                                  - option "PASIR GUDANG"
+                                  - option "PASIR MAS"
+                                  - option "PASIR PANJANG"
+                                  - option "PASIR PUTEH"
+                                  - option "PEDAS"
+                                  - option "PEKAN"
+                                  - option "PEKAN NENAS"
+                                  - option "PELABUHAN KLANG"
+                                  - option "PENAGA"
+                                  - option "PENAMPANG"
+                                  - option "PENANG HILL"
+                                  - option "PENDANG"
+                                  - option "PENGKALAN HULU"
+                                  - option "PERAI"
+                                  - option "PERMAISURI"
+                                  - option "PERMATANG PAUH"
+                                  - option "PETALING JAYA"
+                                  - option "POKOK SENA"
+                                  - option "PONTIAN"
+                                  - option "PORT DICKSON"
+                                  - option "PUCHONG"
+                                  - option "PULAI CHONDONG"
+                                  - option "PULAU CAREY"
+                                  - option "PULAU KETAM"
+                                  - option "PULAU LUMUT"
+                                  - option "PULAU PINANG"
+                                  - option "PUSA"
+                                  - option "PUSAT BANDAR PALONG"
+                                  - option "PUSING"
+                                  - option "PUTRAJAYA"
+                                  - option "RANAU"
+                                  - option "RANTAU"
+                                  - option "RANTAU PANJANG"
+                                  - option "RANTAU PANJANG"
+                                  - option "RASA"
+                                  - option "RAUB"
+                                  - option "RAWANG"
+                                  - option "REMBAU"
+                                  - option "RENGAM"
+                                  - option "RENGIT"
+                                  - option "RINGLET"
+                                  - option "ROMPIN"
+                                  - option "SABAK BERNAM"
+                                  - option "SANDAKAN"
+                                  - option "SARATOK"
+                                  - option "SARIKEI"
+                                  - option "SAUK"
+                                  - option "SEBUYAU"
+                                  - option "SEGA"
+                                  - option "SEGAMAT"
+                                  - option "SEKINCHAN"
+                                  - option "SELAMA"
+                                  - option "SELANDAR"
+                                  - option "SELEKOH"
+                                  - option "SELISING"
+                                  - option "SEMENYIH"
+                                  - option "SEMERAH"
+                                  - option "SEMPORNA"
+                                  - option "SENAI"
+                                  - option "SENGGARANG"
+                                  - option "SEPANG"
+                                  - option "SERDANG"
+                                  - option "SERENDAH"
+                                  - option "SERI GADING"
+                                  - option "SERI KEMBANGAN"
+                                  - option "SERI MANJUNG"
+                                  - option "SERI MEDAN"
+                                  - option "SERIAN"
+                                  - option "SETIU"
+                                  - option "SHAH ALAM"
+                                  - option "SI RUSA"
+                                  - option "SIBU"
+                                  - option "SIBURAN"
+                                  - option "SIK"
+                                  - option "SILIAU"
+                                  - option "SIMPANG"
+                                  - option "SIMPANG AMPAT"
+                                  - option "SIMPANG AMPAT"
+                                  - option "SIMPANG AMPAT SEMANGGOL"
+                                  - option "SIMPANG DURIAN"
+                                  - option "SIMPANG EMPAT"
+                                  - option "SIMPANG PERTANG"
+                                  - option "SIMUNJAN"
+                                  - option "SIPITANG"
+                                  - option "SITIAWAN"
+                                  - option "SLIM RIVER"
+                                  - option "SONG"
+                                  - option "SPAOH"
+                                  - option "SRI AMAN"
+                                  - option "SRI MENANTI"
+                                  - option "SUBANG JAYA"
+                                  - option "SUNGAI AYER TAWAR"
+                                  - option "SUNGAI BESAR"
+                                  - option "SUNGAI BULOH"
+                                  - option "SUNGAI JAWI"
+                                  - option "SUNGAI KOYAN"
+                                  - option "SUNGAI LEMBING"
+                                  - option "SUNGAI MATI"
+                                  - option "SUNGAI PELEK"
+                                  - option "SUNGAI PETANI"
+                                  - option "SUNGAI RAMBAI"
+                                  - option "SUNGAI RUAN"
+                                  - option "SUNGAI SIPUT"
+                                  - option "SUNGAI SUMUN"
+                                  - option "SUNGKAI"
+                                  - option "TLDM LUMUT"
+                                  - option "TAIPING"
+                                  - option "TAMBUNAN"
+                                  - option "TAMPARULI"
+                                  - option "TAMPIN"
+                                  - option "TANAH MERAH"
+                                  - option "TANAH RATA"
+                                  - option "TANGKAK"
+                                  - option "TANJONG BUNGAH"
+                                  - option "TANJONG IPOH"
+                                  - option "TANJONG KARANG"
+                                  - option "TANJONG KLING"
+                                  - option "TANJONG MALIM"
+                                  - option "TANJONG PIANDANG"
+                                  - option "TANJONG RAMBUTAN"
+                                  - option "TANJONG SEPAT"
+                                  - option "TANJONG TUALANG"
+                                  - option "TAPAH"
+                                  - option "TAPAH ROAD"
+                                  - option "TASEK GELUGOR"
+                                  - option "TATAU"
+                                  - option "TAWAU"
+                                  - option "TELOK PANGLIMA GARANG"
+                                  - option "TELUK INTAN"
+                                  - option "TEMANGAN"
+                                  - option "TEMERLOH"
+                                  - option "TEMOH"
+                                  - option "TENOM"
+                                  - option "TITI"
+                                  - option "TRIANG"
+                                  - option "TROLAK"
+                                  - option "TRONG"
+                                  - option "TRONOH"
+                                  - option "TUARAN"
+                                  - option "TUMPAT"
+                                  - option "UKM BANGI"
+                                  - option "UPM SERDANG"
+                                  - option "USM PULAU PINANG"
+                                  - option "ULU BERNAM"
+                                  - option "ULU KINTA"
+                                  - option "ULU SELANGOR"
+                                  - option "ULU TIRAM"
+                                  - option "UNIVERSITI UTARA MALAYSIA"
+                                  - option "WAKAF BHARU"
+                                  - option "YAN"
+                                  - option "YONG PENG"
+                                  - option "KELANA JAYA"
+                                  - option "CHERAS"
+                                  - option "GOMBAK"
+                                  - option "KEPONG"
+                                  - option "LAIN-LAIN"
+                                  - option "SELAYANG"
+                                  - option "BANDAR PUNCAK ALAM"
+                                  - option "JELUTONG"
+                                  - option "BALAKONG"
+                                  - option "AL MUKTAFI BILLAH SHAH"
+                                  - option "AYER KEROH"
+                                  - option "TAMPIN"
+                                  - option "MIRI"
+                                  - option "SUNGAI SIPUT (U)"
+                                  - option "SUNGAI SIPUT (S)"
+                                  - option "HULU KLANG"
+                                  - option "SKUDAI"
+                                  - option "BANDAR SERI JEMPOL"
+                                  - option "GEORGETOWN"
+                                  - option "SEREMBAN"
+                                  - option "CHUKAI"
+                                  - option "SIMPANG RENGGAM"
+                                  - option "SETIAWAN"
+                                - generic [ref=e357]: "- Sila Pilih -"
+                  - group [ref=e361]:
+                    - generic:
+                      - generic [ref=e362]:
+                        - generic [ref=e363]: No. Telefon Pejabat
+                        - generic [ref=e365]: ":"
+                      - generic [ref=e366]:
+                        - generic:
+                          - textbox "No. Telefon Pejabat :" [ref=e369]
+                          - generic [ref=e371]: "Samb. :"
+                          - textbox [ref=e374]
+                  - group [ref=e376]:
+                    - generic:
+                      - generic [ref=e377]:
+                        - generic [ref=e378]: No. Telefon Bimbit
+                        - generic [ref=e380]: ":"
+                      - textbox "No. Telefon Bimbit :" [ref=e384]
+                  - group [ref=e386]:
+                    - generic:
+                      - generic [ref=e387]:
+                        - generic [ref=e388]: Nombor Faks
+                        - generic [ref=e390]: ":"
+                      - textbox "Nombor Faks :" [ref=e394]
+                  - group [ref=e396]:
+                    - generic:
+                      - generic [ref=e397]:
+                        - generic [ref=e398]: Emel
+                        - generic [ref=e400]: ":"
+                      - textbox "Emel :" [ref=e404]
+              - generic [ref=e406]:
+                - button "Seterusnya" [ref=e407] [cursor=pointer]:
+                  - generic [ref=e408]: Seterusnya
+                - button "Isi Semula" [ref=e409] [cursor=pointer]:
+                  - generic [ref=e410]: Isi Semula
+                - button "Keluar" [ref=e411] [cursor=pointer]:
+                  - generic [ref=e412]: Keluar
+    - contentinfo [ref=e413]:
+      - generic [ref=e414]:
+        - generic:
+          - generic [ref=e415]:
+            - generic [ref=e416]: "Tarikh Kemaskini : 15/5/2026 19:01:07"
+            - generic [ref=e417]: "Domain Version: 1.2.70"
+            - generic [ref=e418]: "DB Version: 1.2.71"
+            - generic [ref=e419]: "Common Version: 1.51.16"
+            - 'link "Module Version : 1.38.5" [ref=e421] [cursor=pointer]':
+              - /url: "#"
+            - generic [ref=e422]: "Session Id: SefCEAM-cEkdjD-inPQEn2o+.siakap"
+            - generic [ref=e423]: "Branch Name: wp/stag-env"
+          - generic [ref=e425]:
+            - generic [ref=e426]: Hakcipta Terpelihara @ Pejabat Pengarah Tanah dan Galian
+            - generic [ref=e427]: Wilayah Persekutuan 2026
+            - generic [ref=e428]: Paparan terbaik menggunakan pelayar
+            - generic [ref=e429]: Mozilla Firefox dengan resolusi skrin 1280x768.
+  - generic [ref=e430]: Sila masukkan Nama Kementerian/Jabatan.
+```

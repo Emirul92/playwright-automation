@@ -1,0 +1,47 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - paragraph [ref=e6]: Rabu 22 Jul 2026
+      - paragraph
+      - generic [ref=e7]:
+        - generic [ref=e8] [cursor=pointer]: Informasi Tanah
+        - link "Portal PPTGWP" [ref=e9] [cursor=pointer]:
+          - /url: http://192.168.11.120:8180
+          - generic [ref=e10]: Portal PPTGWP
+    - generic [ref=e14]:
+      - textbox [ref=e18]: nurkhairi@ptgwp.gov.my
+      - textbox [active] [ref=e22]: etanah123#
+      - generic [ref=e24]:
+        - link "Lupa Kata Laluan" [ref=e25] [cursor=pointer]:
+          - /url: https://testing.ptgwp.gov.my/etanah-consent/TerlupaKataLaluanForm.xhtml
+        - button "Submit" [ref=e26]
+    - generic [ref=e27]:
+      - text: Helpdesk Perkhidmatan e-Tanah WP
+      - img [ref=e28]
+      - text: +603-26936429
+      - img [ref=e29]
+      - text: etanahwp@ptgwp.gov.my
+  - generic [ref=e33]:
+    - generic [ref=e34]:
+      - paragraph [ref=e35]: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Putrajaya
+      - paragraph [ref=e36]: Aras G, Blok 2, Menara Seri Wilayah
+      - paragraph [ref=e37]: Presint 2, Pusat Pentadbiran Kerajaan Persekutuan
+      - paragraph [ref=e38]: 62100 Putrajaya
+    - generic [ref=e39]:
+      - paragraph [ref=e40]: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Kuala Lumpur
+      - paragraph [ref=e41]: Aras G-6, Rumah Persekutuan,
+      - paragraph [ref=e42]: Jalan Sultan Hishamudin,
+      - paragraph [ref=e43]: 50678 Kuala Lumpur
+    - generic [ref=e44]:
+      - paragraph [ref=e45]: Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan Labuan
+      - paragraph [ref=e46]: E003, Tingkat 1, Aras Podium
+      - paragraph [ref=e47]: Kompleks Ujana Kewangan, Peti Surat 80693
+      - paragraph [ref=e48]: 80693 Labuan
+    - generic [ref=e49]:
+      - paragraph [ref=e50]: "@ 2026 Pejabat Pengarah Tanah dan Galian Wilayah Persekutuan (PPTGWP)"
+      - paragraph [ref=e51]: Paparan terbaik menggunakan pelayar Mozilla Firefox dengan resolusi skrin 1280x768
+      - paragraph [ref=e52]
+```
