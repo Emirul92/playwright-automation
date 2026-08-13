@@ -295,4 +295,20 @@ for (let i = 0; i <= 4; i++) {
   }
 
   await page.waitForTimeout(10000);
+
+const firstRow = page.locator('table tbody tr').first();
+
+const cellText = await firstRow.locator('td').nth(1).innerText();
+
+console.log('Full text:', cellText);
+
+const match = cellText.match(/\(([^)]+)\)/);
+
+if (match) {
+    const idPermohonan = match[1];
+
+    console.log('ID Permohonan:', idPermohonan);
+} else {
+    throw new Error('ID Permohonan tidak dijumpai');
+}
 });

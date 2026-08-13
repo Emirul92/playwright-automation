@@ -1,0 +1,156 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Emirul\\Desktop\\playwright-automation\\playwright.config.ts",
+    "rootDir": "C:/Users/Emirul/Desktop/playwright-automation/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Emirul/Desktop/playwright-automation/reports/run-2026-08-12T08-51-11-521Z/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/Emirul/Desktop/playwright-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "always"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/run-2026-08-12T08-51-11-521Z/report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "permohonanPBT4.spec.ts",
+      "file": "permohonanPBT4.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "WPKL Permohonan Urusan PBT8A, PBT4, PBA dari Portal Awam sehingga Semakan Permohonan Online",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 300688,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 300000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 300000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 300000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Emirul\\Desktop\\playwright-automation\\tests\\permohonanPBT4.spec.ts",
+                        "column": 4,
+                        "line": 304
+                      },
+                      "message": "Error: locator.innerText: Test timeout of 300000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('row').nth(1).getByRole('cell').nth(1)\u001b[22m\n\n\n\u001b[0m \u001b[90m 302 |\u001b[39m   \u001b[33m.\u001b[39mgetByRole(\u001b[32m'cell'\u001b[39m)\n \u001b[90m 303 |\u001b[39m   \u001b[33m.\u001b[39mnth(\u001b[35m1\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 304 |\u001b[39m   \u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 305 |\u001b[39m\n \u001b[90m 306 |\u001b[39m \u001b[36mconst\u001b[39m match \u001b[33m=\u001b[39m cellText\u001b[33m.\u001b[39mmatch(\u001b[35m/\\(PTGKL\\/[^)]+\\)/\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 307 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Emirul\\Desktop\\playwright-automation\\tests\\permohonanPBT4.spec.ts:304:4\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "First Transaksi ID: 9PBT42026000029\n"
+                    },
+                    {
+                      "text": "Dialog message: PERINGATAN: INI ADALAH ENVIRONMENT TESTING / TRAINING e-TANAH\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-12T08:51:12.613Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Emirul\\Desktop\\playwright-automation\\reports\\run-2026-08-12T08-51-12-600Z\\artifacts\\permohonanPBT4-WPKL-Permoh-f3065-a-Semakan-Permohonan-Online-firefox\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\Emirul\\Desktop\\playwright-automation\\reports\\run-2026-08-12T08-51-12-600Z\\artifacts\\permohonanPBT4-WPKL-Permoh-f3065-a-Semakan-Permohonan-Online-firefox\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Emirul\\Desktop\\playwright-automation\\reports\\run-2026-08-12T08-51-12-600Z\\artifacts\\permohonanPBT4-WPKL-Permoh-f3065-a-Semakan-Permohonan-Online-firefox\\error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8e4488b5be8044ce1665-235cf6b63854a736c550",
+          "file": "permohonanPBT4.spec.ts",
+          "line": 8,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-08-12T08:51:11.526Z",
+    "duration": 302780.495,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

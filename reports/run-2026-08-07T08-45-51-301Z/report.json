@@ -1,0 +1,130 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Emirul\\Desktop\\playwright-automation\\playwright.config.ts",
+    "rootDir": "C:/Users/Emirul/Desktop/playwright-automation/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Emirul/Desktop/playwright-automation/reports/run-2026-08-07T08-45-51-301Z/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/Emirul/Desktop/playwright-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "always"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/run-2026-08-07T08-45-51-301Z/report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "permohonanPBT4.spec.ts",
+      "file": "permohonanPBT4.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "WPKL Permohonan Urusan PBT8A, PBT4, PBA dari Portal Awam sehingga Semakan Permohonan Online",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 212990,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "First Transaksi ID: 9PBT42026000026\n"
+                    },
+                    {
+                      "text": "Dialog message: PERINGATAN: INI ADALAH ENVIRONMENT TESTING / TRAINING e-TANAH\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-07T08:45:52.341Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\Emirul\\Desktop\\playwright-automation\\reports\\run-2026-08-07T08-45-52-327Z\\artifacts\\permohonanPBT4-WPKL-Permoh-f3065-a-Semakan-Permohonan-Online-firefox\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8e4488b5be8044ce1665-235cf6b63854a736c550",
+          "file": "permohonanPBT4.spec.ts",
+          "line": 8,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-08-07T08:45:51.306Z",
+    "duration": 215190.394,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
